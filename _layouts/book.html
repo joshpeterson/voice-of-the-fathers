@@ -12,6 +12,13 @@ layout: default
       font-size: calc(1.5rem * var(--base-font-scale));
     }
 
+    .about-button {
+      position: fixed;
+      bottom: 220px;
+      right: 20px;
+      z-index: 1000;
+    }
+
     .listen-button {
       position: fixed;
       bottom: 120px;
@@ -28,8 +35,12 @@ layout: default
   </style>
 </head>
 
+<div class="about-button">
+  <a href="{{ about | relative_url }}" role="button" class="secondary">❔</a>
+</div>
+
 <div class="listen-button">
-  <button>🎧</button>
+  <a href="{{ page.audio }}" role="button">🎧</a>
 </div>
 
 <div class="font-size-toggle">
@@ -60,7 +71,11 @@ layout: default
 <div class="text">
   <div>
     <h1>{{page.title}}</h1>
-    <i>By {{ page.author }}</i>
+    {% for authorInfo in site.authors %}
+    {% if authorInfo.title == page.author %}
+    <i>By <a href="{{ author.url | relative_url }}">{{ page.author }}</a></i>
+    {% endif %}
+    {% endfor %}
   </div>
   <br />
   {{ content }}
