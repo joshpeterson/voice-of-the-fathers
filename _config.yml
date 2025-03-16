@@ -47,10 +47,10 @@ plugins:
 collections:
   authors:
     output: true
-    permalink: /authors/:name
+    permalink: /authors/:name/
   books:
     output: true
-    permalink: /books/:name
+    permalink: /books/:name/
 
 markdown: kramdown
 
