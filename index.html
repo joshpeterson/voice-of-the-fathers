@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{% for author in site.authors %}
+<div align="center">
+  <a href="{{ author.url }}">
+    <article>
+      <h2>{{ author.title }}</h2>
+      <img src="/authors/{{ author.title }}.jpg" />
+    </article>
+  </a>
+</div>
+{% endfor %}

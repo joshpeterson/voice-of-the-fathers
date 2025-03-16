@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title }}{% else %}Voice of the Fathers{% endif %}</title>
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#127897;</text></svg>">
+
+  <link rel="stylesheet" href="/css/pico.min.css">
+
+  <style>
+    /* Use the Merriweather font. */
+    @import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic);
+
+    :root {
+      --pico-font-family: Merriweather;
+      --pico-font-weight: 400;
+    }
+
+    /* Put a light gray background on the nav bar. */
+    nav {
+      background-color: #f1f1f1;
+      padding: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    /* Vertically center the page title in the nav bar. */
+    nav h3 {
+      margin: 0;
+      display: flex;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+    <nav>
+      <ul>
+        <li>
+          <h3>&#127897; <a href="/">Voice of the Fathers</a></h3>
+        </li>
+      </ul>
+      <ul>
+        {% if page.audio %}
+        <li><a href="{{ page.audio }}" role="button">🎧 Download Audio</a></li>
+        {% endif %}
+        <li><a href="/about" role="button" class="secondary">About</a></li>
+      </ul>
+    </nav>
+    {{ content }}
+  </main>
+
+</body>
+
+</html>

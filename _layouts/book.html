@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<head>
+  <style>
+    :root {
+      --base-font-scale: 1;
+    }
+
+    body {
+      font-size: calc(1rem * var(--base-font-scale));
+    }
+
+    .font-size-toggle {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+  </style>
+</head>
+
+<div class="font-size-toggle">
+  <button onclick="toggleFontSize()">Aa</button>
+</div>
+
+<script>
+  function toggleFontSize() {
+    const root = document.documentElement;
+    const currentScale = parseFloat(getComputedStyle(root).getPropertyValue('--base-font-scale'));
+
+    if (currentScale >= 1.4) {
+      root.style.setProperty('--base-font-scale', '1');
+    } else {
+      root.style.setProperty('--base-font-scale', (currentScale + 0.2).toString());
+    }
+    localStorage.setItem('fontScale', root.style.getPropertyValue('--base-font-scale'));
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const savedScale = localStorage.getItem('fontScale');
+    if (savedScale) {
+      document.documentElement.style.setProperty('--base-font-scale', savedScale);
+    }
+  });
+</script>
+
+<div>
+  <h1>{{page.title}}</h1>
+  <i>By {{ page.author }}</i>
+</div>
+<br />
+{{ content }}
