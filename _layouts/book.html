@@ -8,8 +8,15 @@ layout: default
       --base-font-scale: 1;
     }
 
-    body {
-      font-size: calc(2rem * var(--base-font-scale));
+    .text {
+      font-size: calc(1.5rem * var(--base-font-scale));
+    }
+
+    .listen-button {
+      position: fixed;
+      bottom: 120px;
+      right: 20px;
+      z-index: 1000;
     }
 
     .font-size-toggle {
@@ -20,6 +27,10 @@ layout: default
     }
   </style>
 </head>
+
+<div class="listen-button">
+  <button>🎧</button>
+</div>
 
 <div class="font-size-toggle">
   <button onclick="toggleFontSize()">Aa</button>
@@ -46,9 +57,11 @@ layout: default
   });
 </script>
 
-<div>
-  <h1>{{page.title}}</h1>
-  <i>By {{ page.author }}</i>
+<div class="text">
+  <div>
+    <h1>{{page.title}}</h1>
+    <i>By {{ page.author }}</i>
+  </div>
+  <br />
+  {{ content }}
 </div>
-<br />
-{{ content }}
