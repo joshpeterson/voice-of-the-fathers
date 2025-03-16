@@ -40,14 +40,14 @@
     <nav>
       <ul>
         <li>
-          <h1>🎙 <a href="/">Voice of the Fathers</a></h1>
+          <h1>🎙 <a href="{{ site.baseurl }}/">Voice of the Fathers</a></h1>
         </li>
       </ul>
       <ul>
         {% if page.audio %}
         <li><a href="{{ page.audio }}" role="button">🎧 Listen</a></li>
         {% endif %}
-        <li><a href="/about/" role="button" class="secondary">About</a></li>
+        <li><a href="{{ site.baseurl }}/about/" role="button" class="secondary">About</a></li>
       </ul>
     </nav>
     {{ content }}
