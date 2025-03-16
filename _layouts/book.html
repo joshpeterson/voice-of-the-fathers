@@ -9,7 +9,7 @@ layout: default
     }
 
     body {
-      font-size: calc(1rem * var(--base-font-scale));
+      font-size: calc(2rem * var(--base-font-scale));
     }
 
     .font-size-toggle {
@@ -30,10 +30,10 @@ layout: default
     const root = document.documentElement;
     const currentScale = parseFloat(getComputedStyle(root).getPropertyValue('--base-font-scale'));
 
-    if (currentScale >= 1.4) {
+    if (currentScale >= 1.5) {
       root.style.setProperty('--base-font-scale', '1');
     } else {
-      root.style.setProperty('--base-font-scale', (currentScale + 0.2).toString());
+      root.style.setProperty('--base-font-scale', (currentScale + 0.25).toString());
     }
     localStorage.setItem('fontScale', root.style.getPropertyValue('--base-font-scale'));
   }
