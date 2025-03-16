@@ -7,7 +7,7 @@ layout: default
 {% for book in site.books %}
 {% if book.author == page.title %}
 <article>
-  <h2><a href="{{ book.url }}">{{ book.title }}</a></h2>
+  <h2><a href="{{ book.url | relative_url }}">{{ book.title }}</a></h2>
 </article>
 {% endif %}
 {% endfor %}

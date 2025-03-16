@@ -4,10 +4,10 @@ layout: default
 
 {% for author in site.authors %}
 <div align="center">
-  <a href="{{ author.url }}">
+  <a href="{{ author.url | relative_url }}">
     <article>
       <h2>{{ author.title }}</h2>
-      <img src="authors/{{ author.title }}.jpg" />
+      <img src="{{ site.baseurl }}/authors/{{ author.title }}.jpg" />
     </article>
   </a>
 </div>

@@ -47,7 +47,7 @@
         {% if page.audio %}
         <li><a href="{{ page.audio }}" role="button">🎧 Download Audio</a></li>
         {% endif %}
-        <li><a href="about" role="button" class="secondary">About</a></li>
+        <li><a href="{{ about | relative_url }}" role="button" class="secondary">About</a></li>
       </ul>
     </nav>
     {{ content }}
