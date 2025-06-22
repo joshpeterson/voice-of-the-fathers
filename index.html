@@ -2,13 +2,49 @@
 layout: default
 ---
 
-{% for author in site.authors %}
-<div align="center">
-  <a href="{{ author.url | relative_url }}">
-    <article>
-      <h1>{{ author.title }}</h1>
-      <img src="assets/images/{{ author.title }}.jpg" />
-    </article>
-  </a>
+<style>
+  .author-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .author-card {
+    width: 100vw;
+    max-width: none;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (max-width: 700px) {
+    .author-list {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .author-card {
+      width: 95vw;
+      max-width: 400px;
+    }
+  }
+</style>
+
+<div class="author-list">
+  {% for author in site.authors %}
+  <div class="author-card">
+    <a href="{{ author.url | relative_url }}">
+      <article>
+        <h1>{{ author.title }}</h1>
+        <img src="assets/images/{{ author.title }}.jpg" style="max-width: 100%; height: auto; border-radius: 8px;" />
+      </article>
+    </a>
+  </div>
+  {% endfor %}
 </div>
-{% endfor %}
