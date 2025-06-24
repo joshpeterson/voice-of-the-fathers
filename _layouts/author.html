@@ -3,6 +3,9 @@ layout: default
 ---
 
 <h1>{{ page.author }}</h1>
+<h2>About the author</h2>
+{{content}}
+<h2>Works by the author</h2>
 {% for book in site.books %}
 {% if book.author == page.author %}
 <article>
