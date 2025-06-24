@@ -1,4 +1,4 @@
 ---
-title: Ignatius of Antioch
+author: Ignatius of Antioch
 layout: author
 ---

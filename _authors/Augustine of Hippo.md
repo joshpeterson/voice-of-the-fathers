@@ -1,4 +1,4 @@
 ---
-title: Augustine of Hippo
+author: Augustine of Hippo
 layout: author
 ---
