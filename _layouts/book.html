@@ -53,7 +53,11 @@ layout: default
 </head>
 
 <div class="about-button">
-  <a href="{{ site.baseurl }}about.html" role="button" class="secondary">❔</a>
+  {% for author in site.authors %}
+  {% if author.title == page.author %}
+  <a href="{{ author.url | relative_url }}" role="button" class="secondary">❔</a>
+  {% endif %}
+  {% endfor %}
 </div>
 
 <div class="listen-button">
