@@ -2,7 +2,11 @@
 layout: default
 ---
 
-<h1>{{ page.author }}</h1>
+
+<h1>
+  <img src="../../assets/images/{{ page.author }}.jpg" style="max-width: 8%; height: auto; border-radius: 8px;" />
+  {{ page.author }}
+</h1>
 <h2>About the author</h2>
 {{content}}
 <h2>Works by the author</h2>
