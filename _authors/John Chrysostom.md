@@ -1,4 +1,4 @@
 ---
-author: John Chrysostom
+title: John Chrysostom
 layout: author
 ---

@@ -4,14 +4,15 @@ layout: default
 
 
 <h1>
-  <img class="author-image-small" src="../../assets/images/{{ page.author }}.jpg" />
-  {{ page.author }}
+  <img class="author-image-small" src="../../assets/images/{{ page.title }}.jpg" />
+  {{ page.title }}
 </h1>
 <h2>About the author</h2>
 {{content}}
 <h2>Works by the author</h2>
+
 {% for book in site.books %}
-{% if book.author == page.author %}
+{% if book.author == page.title %}
 <article>
   <h1><a href="{{ book.url | relative_url }}">{{ book.title }}</a></h1>
 </article>
