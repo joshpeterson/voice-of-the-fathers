@@ -91,7 +91,7 @@ layout: default
   </style>
 </head>
 
-<div class="author-button">
+<div class="author-button" title="About the author">
   {% for author in site.authors %}
   {% if author.title == page.author %}
   <a href="{{ author.url | relative_url }}" role="button" class="secondary">❔</a>
@@ -100,14 +100,14 @@ layout: default
 </div>
 
 <div class="download-button">
-  <button onclick="window.print()" title="Download or Print PDF">⬇️</button>
+  <button onclick="window.print()" title="Download or print this book">⬇️</button>
 </div>
 
-<div class="listen-button">
+<div class="listen-button" title="Listen to the audio version of this book">
   <a href="{{ page.audio }}" role="button">🎧</a>
 </div>
 
-<div class="font-size-button">
+<div class="font-size-button" title="Change the font size">
   <button onclick="toggleFontSize()">Aa</button>
 </div>
 

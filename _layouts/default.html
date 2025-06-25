@@ -88,9 +88,10 @@
       </ul>
       <ul>
         {% if page.audio %}
-        <li><a href="{{ page.audio }}" role="button">🎧 Listen</a></li>
+        <li><a href="{{ page.audio }}" role="button" title="Listen to the audio version of this book">🎧 Listen</a></li>
         {% endif %}
-        <li><a href="{{ site.baseurl }}/about.html" role="button" class="secondary">About</a></li>
+        <li><a href="{{ site.baseurl }}/about.html" role="button" class="secondary" title="About the site">About</a>
+        </li>
       </ul>
     </nav>
     {{ content }}
