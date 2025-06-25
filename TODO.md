@@ -3,3 +3,4 @@
 - Write the about page for the site
 - Work on screen reader hints for the site
 - Figure out how to do a print layout and/or PDF download without buttons from the book page
+- Figure out how to properly override media queries for the fonts size in pico
