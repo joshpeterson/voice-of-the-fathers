@@ -1,3 +1,2 @@
 - Find a JS player for audio that can be embedded into the book page
 - Write the about page for the site
-- Work on screen reader hints for the site

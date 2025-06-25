@@ -94,21 +94,29 @@ layout: default
 <div class="author-button" title="About the author">
   {% for author in site.authors %}
   {% if author.title == page.author %}
-  <a href="{{ author.url | relative_url }}" role="button" class="secondary">❔</a>
+  <a href="{{ author.url | relative_url }}" role="button" class="secondary" aria-label="About the author">
+    ❔<span class="visually-hidden">About the author</span>
+  </a>
   {% endif %}
   {% endfor %}
 </div>
 
 <div class="download-button">
-  <button onclick="window.print()" title="Download or print this book">⬇️</button>
+  <button onclick="window.print()" title="Download or print this book" aria-label="Download or print this book">
+    ⬇️<span class="visually-hidden">Download or print this book</span>
+  </button>
 </div>
 
 <div class="listen-button" title="Listen to the audio version of this book">
-  <a href="{{ page.audio }}" role="button">🎧</a>
+  <a href="{{ page.audio }}" role="button" aria-label="Listen to the audio version of this book">
+    🎧<span class="visually-hidden">Listen to the audio version of this book</span>
+  </a>
 </div>
 
 <div class="font-size-button" title="Change the font size">
-  <button onclick="toggleFontSize()">Aa</button>
+  <button onclick="toggleFontSize()" aria-label="Change the font size">
+    Aa<span class="visually-hidden">Change the font size</span>
+  </button>
 </div>
 
 <script>
