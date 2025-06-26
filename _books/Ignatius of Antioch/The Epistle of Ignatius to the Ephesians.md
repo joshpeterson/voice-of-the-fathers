@@ -2,7 +2,6 @@
 title: The Epistle of Ignatius to the Ephesians
 layout: book
 author: Ignatius of Antioch
-audio: josh
 permalink: authors/ignatius-of-antioch/:name
 ---
 
