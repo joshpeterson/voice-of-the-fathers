@@ -3,6 +3,7 @@ layout: default
 ---
 
 <head>
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
   <style>
     :root {
       --base-font-scale: 1;
@@ -16,7 +17,6 @@ layout: default
       /* ensures space for the floating buttons */
     }
 
-    /* Common button styles */
     .author-button a,
     .listen-button a,
     .font-size-button button {
@@ -88,6 +88,27 @@ layout: default
         color: black !important;
       }
     }
+
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1001; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    .modal-content {
+      background-color: #fefefe;
+      margin: 15% auto; /* 15% from the top and centered */
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%; /* Could be more or less, depending on screen size */
+      position: relative;
+    }
   </style>
 </head>
 
@@ -108,9 +129,19 @@ layout: default
 </div>
 
 <div class="listen-button" title="Listen to the audio version of this book">
-  <a href="{{ page.audio }}" role="button" aria-label="Listen to the audio version of this book">
+  <a href="#audio-modal" role="button" aria-label="Listen to the audio version of this book">
     🎧<span class="visually-hidden">Listen to the audio version of this book</span>
   </a>
+</div>
+
+<div id="audio-modal" class="modal">
+  <div class="modal-content">
+    <h2>{{ page.title }}</h2>
+    <h3>By {{ page.author }}</h3>
+    <audio id="player" controls>
+      <source src="{{ page.audio }}" type="audio/mp4">
+    </audio>
+  </div>
 </div>
 
 <div class="font-size-button" title="Change the font size">
@@ -119,6 +150,7 @@ layout: default
   </button>
 </div>
 
+<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
 <script>
   function toggleFontSize() {
     const root = document.documentElement;
@@ -136,6 +168,30 @@ layout: default
     const savedScale = localStorage.getItem('fontScale');
     if (savedScale) {
       document.documentElement.style.setProperty('--base-font-scale', savedScale);
+    }
+
+    const player = new Plyr('#player', {
+      controls: ['play', 'progress', 'current-time', 'duration', 'mute', 'volume', 'settings', 'download'],
+      settings: ['speed']
+    });
+
+    // Get the modal
+    var modal = document.getElementById("audio-modal");
+
+    // Get the button that opens the modal
+    var btn = document.querySelector(".listen-button a");
+
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+        player.pause(); // Pause audio when modal is closed
+      }
     }
   });
 </script>
