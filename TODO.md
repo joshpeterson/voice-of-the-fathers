@@ -1,2 +1,2 @@
-- Find a JS player for audio that can be embedded into the book page
 - Write the about page for the site
+- Set up the audio file organization in the repository
