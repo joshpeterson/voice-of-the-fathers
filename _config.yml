@@ -12,11 +12,11 @@ markdown: kramdown
 
 sass:
   sass_dir: css
-  style:    expanded
+  style: expanded
 
 exclude:
-- README.md
-- TODO.md
+  - README.md
+  - TODO.md
 
 safe: true
 lsi: false

@@ -2,19 +2,20 @@
 layout: default
 ---
 
-
 <h1>
-  <img class="author-image-small" src="../../assets/images/{{ page.title }}.jpg" alt="Portrait of {{ page.title }}" />
+  <img
+    class="author-image-small"
+    src="../../assets/images/{{ page.title }}.jpg"
+    alt="Portrait of {{ page.title }}"
+  />
   {{ page.title }}
 </h1>
 <h2>About the author</h2>
 {{content}}
 <h2>Works by the author</h2>
 
-{% for book in site.books %}
-{% if book.author == page.title %}
+{% for book in site.books %} {% if book.author == page.title %}
 <article>
   <h1><a href="{{ book.url | relative_url }}">{{ book.title }}</a></h1>
 </article>
-{% endif %}
-{% endfor %}
+{% endif %} {% endfor %}

@@ -5,6 +5,7 @@ author: Ignatius of Antioch
 audio: josh
 permalink: authors/ignatius-of-antioch/:name
 ---
+
 ## Introduction
 
 Ignatius, who is also called Theophorus, to the Church which is at Ephesus, in

@@ -1,0 +1,17 @@
+{
+  "name": "voice-of-the-fathers",
+  "version": "1.0.0",
+  "description": "A Jekyll site for Voice of the Fathers",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "check-format": "prettier --check ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@shopify/prettier-plugin-liquid": "^1.9.3",
+    "prettier": "^3.6.1"
+  }
+}

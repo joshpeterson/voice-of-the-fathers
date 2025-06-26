@@ -1,0 +1,5 @@
+_site/
+.git/
+.jekyll-cache/
+node_modules/
+css/pico.min.css

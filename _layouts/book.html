@@ -26,7 +26,7 @@ layout: default
       align-items: center;
       justify-content: center;
       padding: 0;
-      font-size: 36pt
+      font-size: 36pt;
     }
 
     .author-button {
@@ -68,7 +68,6 @@ layout: default
     }
 
     @media print {
-
       .author-button,
       .listen-button,
       .font-size-button,
@@ -98,7 +97,7 @@ layout: default
       width: 100%; /* Full width */
       height: 100%; /* Full height */
       overflow: auto; /* Enable scroll if needed */
-      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
     }
 
     .modal-content {
@@ -113,24 +112,37 @@ layout: default
 </head>
 
 <div class="author-button" title="About the author">
-  {% for author in site.authors %}
-  {% if author.title == page.author %}
-  <a href="{{ author.url | relative_url }}" role="button" class="secondary" aria-label="About the author">
+  {% for author in site.authors %} {% if author.title == page.author %}
+  <a
+    href="{{ author.url | relative_url }}"
+    role="button"
+    class="secondary"
+    aria-label="About the author"
+  >
     ❔<span class="visually-hidden">About the author</span>
   </a>
-  {% endif %}
-  {% endfor %}
+  {% endif %} {% endfor %}
 </div>
 
 <div class="download-button">
-  <button onclick="window.print()" title="Download or print this book" aria-label="Download or print this book">
+  <button
+    onclick="window.print()"
+    title="Download or print this book"
+    aria-label="Download or print this book"
+  >
     ⬇️<span class="visually-hidden">Download or print this book</span>
   </button>
 </div>
 
 <div class="listen-button" title="Listen to the audio version of this book">
-  <a href="#audio-modal" role="button" aria-label="Listen to the audio version of this book">
-    🎧<span class="visually-hidden">Listen to the audio version of this book</span>
+  <a
+    href="#audio-modal"
+    role="button"
+    aria-label="Listen to the audio version of this book"
+  >
+    🎧<span class="visually-hidden"
+      >Listen to the audio version of this book</span
+    >
   </a>
 </div>
 
@@ -139,7 +151,7 @@ layout: default
     <h2>{{ page.title }}</h2>
     <h3>By {{ page.author }}</h3>
     <audio id="player" controls>
-      <source src="{{ page.audio }}" type="audio/mp4">
+      <source src="{{ page.audio }}" type="audio/mp4" />
     </audio>
   </div>
 </div>
@@ -154,25 +166,45 @@ layout: default
 <script>
   function toggleFontSize() {
     const root = document.documentElement;
-    const currentScale = parseFloat(getComputedStyle(root).getPropertyValue('--base-font-scale'));
+    const currentScale = parseFloat(
+      getComputedStyle(root).getPropertyValue("--base-font-scale"),
+    );
 
     if (currentScale >= 1.5) {
-      root.style.setProperty('--base-font-scale', '1');
+      root.style.setProperty("--base-font-scale", "1");
     } else {
-      root.style.setProperty('--base-font-scale', (currentScale + 0.25).toString());
+      root.style.setProperty(
+        "--base-font-scale",
+        (currentScale + 0.25).toString(),
+      );
     }
-    localStorage.setItem('fontScale', root.style.getPropertyValue('--base-font-scale'));
+    localStorage.setItem(
+      "fontScale",
+      root.style.getPropertyValue("--base-font-scale"),
+    );
   }
 
-  document.addEventListener('DOMContentLoaded', () => {
-    const savedScale = localStorage.getItem('fontScale');
+  document.addEventListener("DOMContentLoaded", () => {
+    const savedScale = localStorage.getItem("fontScale");
     if (savedScale) {
-      document.documentElement.style.setProperty('--base-font-scale', savedScale);
+      document.documentElement.style.setProperty(
+        "--base-font-scale",
+        savedScale,
+      );
     }
 
-    const player = new Plyr('#player', {
-      controls: ['play', 'progress', 'current-time', 'duration', 'mute', 'volume', 'settings', 'download'],
-      settings: ['speed']
+    const player = new Plyr("#player", {
+      controls: [
+        "play",
+        "progress",
+        "current-time",
+        "duration",
+        "mute",
+        "volume",
+        "settings",
+        "download",
+      ],
+      settings: ["speed"],
     });
 
     // Get the modal
@@ -181,29 +213,27 @@ layout: default
     // Get the button that opens the modal
     var btn = document.querySelector(".listen-button a");
 
-    // When the user clicks the button, open the modal 
-    btn.onclick = function() {
+    // When the user clicks the button, open the modal
+    btn.onclick = function () {
       modal.style.display = "block";
-    }
+    };
 
     // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
+    window.onclick = function (event) {
       if (event.target == modal) {
         modal.style.display = "none";
         player.pause(); // Pause audio when modal is closed
       }
-    }
+    };
   });
 </script>
 
 <div class="text">
   <div>
     <h1>{{page.title}}</h1>
-    {% for author in site.authors %}
-    {% if author.title == page.author %}
+    {% for author in site.authors %} {% if author.title == page.author %}
     <i>By <a href="{{ author.url | relative_url }}">{{ page.author }}</a></i>
-    {% endif %}
-    {% endfor %}
+    {% endif %} {% endfor %}
   </div>
   <br />
   {{ content }}

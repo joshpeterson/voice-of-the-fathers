@@ -1,126 +1,134 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      {% if page.title %}{{ page.title }}{% else %}Voice of the Fathers{% endif
+      %}
+    </title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#127897;</text></svg>"
+    />
 
-<head>
-  <meta charset="utf-8">
-  <title>{% if page.title %}{{ page.title }}{% else %}Voice of the Fathers{% endif %}</title>
-  <link rel="icon"
-    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#127897;</text></svg>">
+    <link rel="stylesheet" href="{{ '/css/pico.min.css' | relative_url }}" />
 
-  <link rel="stylesheet" href="{{ '/css/pico.min.css' | relative_url }}">
+    <style>
+      /* Use the Merriweather font. */
+      @import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic);
 
-  <style>
-    /* Use the Merriweather font. */
-    @import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic);
-
-    :root {
-      --pico-font-family: Merriweather;
-      --pico-font-weight: 400;
-    }
-
-    /* Put a light gray background on the nav bar. */
-    nav {
-      background-color: #f1f1f1;
-      padding: 1rem;
-      margin-bottom: 2rem;
-    }
-
-    /* Vertically center the page title in the nav bar. */
-    nav h1 {
-      margin: 0;
-      display: flex;
-      align-items: center;
-    }
-
-    .author-image-large {
-      max-width: 100%;
-      height: auto;
-      border-radius: 20px;
-    }
-
-    .author-image-small {
-      max-width: 8%;
-      height: auto;
-      border-radius: 20px;
-    }
-
-    main {
-      width: 100vw;
-      max-width: 100vw;
-      padding: 1rem;
-      margin: 0;
-    }
-
-    @media (min-width:768px) {
       :root {
-        --pico-font-size: 150%;
+        --pico-font-family: Merriweather;
+        --pico-font-weight: 400;
       }
-    }
 
-    @media (min-width:1024px) {
-      :root {
-        --pico-font-size: 118.75%
+      /* Put a light gray background on the nav bar. */
+      nav {
+        background-color: #f1f1f1;
+        padding: 1rem;
+        margin-bottom: 2rem;
       }
-    }
 
-    @media (min-width:1280px) {
-      :root {
-        --pico-font-size: 125%
+      /* Vertically center the page title in the nav bar. */
+      nav h1 {
+        margin: 0;
+        display: flex;
+        align-items: center;
       }
-    }
 
-    @media (min-width:1536px) {
-      :root {
-        --pico-font-size: 131.25%
+      .author-image-large {
+        max-width: 100%;
+        height: auto;
+        border-radius: 20px;
       }
-    }
 
-    .visually-hidden {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      padding: 0;
-      margin: -1px;
-      overflow: hidden;
-      clip: rect(0, 0, 0, 0);
-      border: 0;
-    }
+      .author-image-small {
+        max-width: 8%;
+        height: auto;
+        border-radius: 20px;
+      }
 
-    .visually-hidden.focusable:focus {
-      position: static;
-      width: auto;
-      height: auto;
-      margin: 0;
-      overflow: visible;
-      clip: auto;
-      background: #fff;
-      color: #000;
-      z-index: 10000;
-    }
-  </style>
-</head>
+      main {
+        width: 100vw;
+        max-width: 100vw;
+        padding: 1rem;
+        margin: 0;
+      }
 
-<body>
+      @media (min-width: 768px) {
+        :root {
+          --pico-font-size: 150%;
+        }
+      }
 
-  <a href="#main-content" class="visually-hidden focusable">Skip to main content</a>
+      @media (min-width: 1024px) {
+        :root {
+          --pico-font-size: 118.75%;
+        }
+      }
 
-  <main>
-    <nav>
-      <ul>
-        <li>
-          <h1>🎙 <a href="{{ site.baseurl }}/">Voice of the Fathers</a></h1>
-        </li>
-      </ul>
-      <ul>
-        <li><a href="{{ site.baseurl }}/about.html" role="button" class="secondary" title="About the site">About</a>
-        </li>
-      </ul>
-    </nav>
-    <span id="main-content">
-      {{ content }}
-    </span>
-  </main>
+      @media (min-width: 1280px) {
+        :root {
+          --pico-font-size: 125%;
+        }
+      }
 
-</body>
+      @media (min-width: 1536px) {
+        :root {
+          --pico-font-size: 131.25%;
+        }
+      }
 
+      .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+      }
+
+      .visually-hidden.focusable:focus {
+        position: static;
+        width: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        clip: auto;
+        background: #fff;
+        color: #000;
+        z-index: 10000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <a href="#main-content" class="visually-hidden focusable"
+      >Skip to main content</a
+    >
+
+    <main>
+      <nav>
+        <ul>
+          <li>
+            <h1>🎙 <a href="{{ site.baseurl }}/">Voice of the Fathers</a></h1>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a
+              href="{{ site.baseurl }}/about.html"
+              role="button"
+              class="secondary"
+              title="About the site"
+              >About</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <span id="main-content"> {{ content }} </span>
+    </main>
+  </body>
 </html>
