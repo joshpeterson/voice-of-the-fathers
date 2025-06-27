@@ -150,7 +150,7 @@ layout: default
   <div class="modal-content">
     <h2>{{ page.title }}</h2>
     <h3>By {{ page.author }}</h3>
-    <audio id="player" controls>
+    <audio id="player" controls preload="none">
       <source src="/assets/sounds/{{ page.author }}/{{ page.title }}.m4a" type="audio/mp4" />
     </audio>
   </div>
