@@ -1,4 +1,5 @@
 {
   "printWidth": 80,
-  "plugins": ["@shopify/prettier-plugin-liquid"]
+  "plugins": ["@shopify/prettier-plugin-liquid"],
+  "proseWrap": "always"
 }
