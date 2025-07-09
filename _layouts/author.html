@@ -10,11 +10,7 @@ layout: default
   />
   {{ page.title }}
 </h1>
-<h2>About the author</h2>
-{{content}}
-<h2>Works by the author</h2>
-
-{% for book in site.books %} {% if book.author == page.title %}
+{{content}} {% for book in site.books %} {% if book.author == page.title %}
 <article>
   <h1><a href="{{ book.url | relative_url }}">{{ book.title }}</a></h1>
 </article>
