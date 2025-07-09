@@ -23,7 +23,4 @@ observed on October 17 in Western Christianity and December 20 in Eastern
 Christianity.
 
 **Sources:** [Wikipedia](https://en.wikipedia.org/wiki/Ignatius_of_Antioch)
-[Catholic News Agency](https://www.catholicnewsagency.com/saint/st-ignatius-of-antioch-570)
 [Franciscan Media](https://www.franciscanmedia.org/saint-of-the-day/saint-ignatius-of-antioch)
-[My Catholic Life!](https://mycatholic.life/saints/st-ignatius-of-antioch/)
-[Sacred Space](https://www.sacredspace.ie/saints/ignatius-of-antioch/)
