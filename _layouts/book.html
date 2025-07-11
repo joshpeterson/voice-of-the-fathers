@@ -19,6 +19,7 @@ layout: default
 
     .author-button a,
     .listen-button a,
+    .download-button a,
     .font-size-button button {
       width: 100px;
       height: 100px;
@@ -31,12 +32,26 @@ layout: default
 
     .author-button {
       position: fixed;
+      bottom: 500px;
+      right: 20px;
+      z-index: 1000;
+    }
+
+    .print-button {
+      position: fixed;
       bottom: 380px;
       right: 20px;
       z-index: 1000;
     }
 
     .listen-button {
+      position: fixed;
+      bottom: 260px;
+      right: 20px;
+      z-index: 1000;
+    }
+
+    .download-button {
       position: fixed;
       bottom: 140px;
       right: 20px;
@@ -50,14 +65,7 @@ layout: default
       z-index: 1000;
     }
 
-    .download-button {
-      position: fixed;
-      bottom: 260px;
-      right: 20px;
-      z-index: 1000;
-    }
-
-    .download-button button {
+    .print-button button {
       width: 100px;
       height: 100px;
       display: flex;
@@ -70,8 +78,9 @@ layout: default
     @media print {
       .author-button,
       .listen-button,
-      .font-size-button,
       .download-button,
+      .font-size-button,
+      .print-button,
       nav {
         display: none !important;
       }
@@ -124,13 +133,13 @@ layout: default
   {% endif %} {% endfor %}
 </div>
 
-<div class="download-button">
+<div class="print-button">
   <button
     onclick="window.print()"
-    title="Download or print this book"
-    aria-label="Download or print this book"
+    title="Print this book"
+    aria-label="Print this book"
   >
-    ⬇️<span class="visually-hidden">Download or print this book</span>
+    🖨️<span class="visually-hidden">Print this book</span>
   </button>
 </div>
 
@@ -151,9 +160,24 @@ layout: default
     <h2>{{ page.title }}</h2>
     <h3>By {{ page.author }}</h3>
     <audio id="player" controls preload="none">
-      <source src="/assets/sounds/{{ page.author }}/{{ page.title }}.m4a" type="audio/mp4" />
+      <source
+        src="/assets/sounds/{{ page.author }}/{{ page.title }}.m4a"
+        type="audio/mp4"
+      />
     </audio>
   </div>
+</div>
+
+<div class="download-button">
+  <a
+    href="/assets/sounds/{{ page.author }}/{{ page.title }}.m4a"
+    download
+    title="Download the audio for this book"
+    aria-label="Download the audio for this book"
+    role="button"
+  >
+    ⬇️<span class="visually-hidden">Download the audio for this book</span>
+  </a>
 </div>
 
 <div class="font-size-button" title="Change the font size">
