@@ -91,9 +91,31 @@ layout: default
         font-size: 12pt !important;
       }
 
+      p {
+        page-break-inside: avoid;
+      }
+
+      h1 {
+        page-break-after: avoid;
+      }
+
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        page-break-after: avoid;
+      }
+
       body {
         background: white !important;
         color: black !important;
+      }
+
+      @page {
+        @bottom-right {
+          content: counter(page);
+        }
       }
     }
 
