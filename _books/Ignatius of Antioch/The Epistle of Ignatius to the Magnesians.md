@@ -212,7 +212,7 @@ full assurance, and believes them, is happy; even as you are now the lovers of
 God and of Christ, in the full assurance of our hope, from which may no one of
 us ever be turned aside!
 
-## Chapter 12 - you are superior to me
+## Chapter 12 - You are superior to me
 
 May I enjoy you in all respects, if indeed I be worthy! For though I am bound, I
 am not worthy to be compared to one of you that are at liberty. I know that you
