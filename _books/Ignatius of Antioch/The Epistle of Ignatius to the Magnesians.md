@@ -242,9 +242,9 @@ the Father, that there may be a unity according to God among you.
 ## Chapter 14 - Your prayers requested
 
 Knowing as I do that you are full of all good, I have but briefly exhorted you
-in the love of Jesus Christ. Be mindful of me in your prayours, that I may
-attain to God; and of the Church which is in Syria, of whom I am not worthy to
-be called bishop. For I stand in need of your united prayour in God, and of your
+in the love of Jesus Christ. Be mindful of me in your prayers, that I may attain
+to God; and of the Church which is in Syria, of whom I am not worthy to be
+called bishop. For I stand in need of your united prayer in God, and of your
 love, that the Church which is in Syria may be deemed worthy, by your good
 order, of being edified in Christ.
 
