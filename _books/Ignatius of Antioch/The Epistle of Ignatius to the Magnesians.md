@@ -256,8 +256,8 @@ as does also Polycarp. The rest of the Churches, in honour of Jesus Christ, also
 salute you. Fare you well in harmony, you who have obtained the inseparable
 Spirit, in Christ Jesus, by the will of God.
 
-\_**Source:** Translated by Alexander Roberts and James Donaldson. From
+_**Source:** Translated by Alexander Roberts and James Donaldson. From
 Ante-Nicene Fathers, Vol. . Edited by Alexander Roberts, James Donaldson, and A.
 Cleveland Coxe. (Buffalo, NY: Christian Literature Publishing Co., 1885.) Edited
 for Voice of the Fathers by Josh Peterson. Obtained from
-[Christian Classics Ethereal Library](https://ccel.org/ccel/ignatius_antioch/epistles_of_ignatius/anf.v.iii.html).
+[Christian Classics Ethereal Library](https://ccel.org/ccel/ignatius_antioch/epistles_of_ignatius/anf.v.iii.html)._
