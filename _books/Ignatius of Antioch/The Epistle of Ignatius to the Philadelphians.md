@@ -64,8 +64,8 @@ neither to separate from the godly, nor to associate with the ungodly. If any
 one walks according to a strange opinion, he is not of Christ, nor a partaker of
 His passion; but is a fox, a destroyer of the vineyard of Christ. Have no
 fellowship with such a man, lest you perish along with him, even should he be
-thy father, thy son, thy brother, or a member of thy family. For says [the
-Scripture], “Thine eye shall not spare him.” You ought therefore to “hate those
+thy father, thy son, thy brother, or a member of thy family. For says the
+Scripture, “Thine eye shall not spare him.” You ought therefore to “hate those
 that hate God, and to waste away with grief on account of His enemies.” I do not
 mean that you should beat them or persecute them, as do the Gentiles “that know
 not the Lord and God;” but that you should regard them as your enemies, and
@@ -73,7 +73,7 @@ separate yourselves from them, while yet you admonish them, and exhort them to
 repentance, if it may be they will hear, if it may be they will submit
 themselves. For our God is a lover of mankind, and “will have all men to be
 saved, and to come to the knowledge of the truth.” Wherefore “He makes His sun
-to rise upon the evil and on the good, and sendeth rain on the just and on the
+to rise upon the evil and on the good, and sends rain on the just and on the
 unjust;” of whose kindness the Lord, wishing us also to be imitators, says, “Be
 you perfect, even as also your Father that is in heaven is perfect.”
 
@@ -179,7 +179,7 @@ falsely called a Nicolaitan, this person can neither be a lover of God, nor a
 lover of Christ, but is a corrupter of his own flesh, and therefore void of the
 Holy Spirit, and a stranger to Christ. All such persons are but monuments and
 sepulchres of the dead, upon which are written only the names of dead men. Flee,
-therefore, the wicked devices and snares of the spirit which now worketh in the
+therefore, the wicked devices and snares of the spirit which now works in the
 children of this world, lest at any time being overcome, you grow weak in your
 love. But be you all joined together with an undivided heart and a willing mind,
 “being of one accord and of one judgment,” being always of the same opinion
