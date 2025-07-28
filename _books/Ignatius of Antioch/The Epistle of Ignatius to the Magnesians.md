@@ -30,7 +30,7 @@ tempted above that which you are able.”
 Since, then, I have had the privilege of seeing you, through Damas your most
 worthy bishop, and through your worthy presbyters Bassus and Apollonius, and
 through my fellow-servant the deacon Sotio, whose friendship may I ever enjoy,
-inasmuch as he is subject to the bishop as to the grace of God, and to the
+in as much as he is subject to the bishop as to the grace of God, and to the
 presbytery as to the law of Jesus Christ, I now to write to you.
 
 ## Chapter 3 - Honour your youthful bishop
@@ -38,9 +38,9 @@ presbytery as to the law of Jesus Christ, I now to write to you.
 Now it becomes you also not to despise the age of your bishop, but to yield him
 all reverence, according to the will of God the Father, as I have known even
 holy presbyters do, not having regard to the manifest youth of their bishop, but
-to his knowledge in God; inasmuch as “not the ancient are necessarily wise, nor
-do the aged understand prudence; but there is a spirit in men.” For Daniel the
-wise, at twelve years of age, became possessed of the divine Spirit, and
+to his knowledge in God; in as much as “not the ancient are necessarily wise,
+nor do the aged understand prudence; but there is a spirit in men.” For Daniel
+the wise, at twelve years of age, became possessed of the divine Spirit, and
 convicted the elders, who in vain carried their grey hairs, of being false
 accusers, and of lusting after the beauty of another man’s wife. Samuel also,
 when he was but a little child, reproved Eli, who was ninety years old, for
@@ -61,7 +61,7 @@ your bishop, and contradict him in nothing; for it is a fearful thing to
 contradict any such person. For no one does by such conduct deceive him that is
 visible, but does in reality seek to mock Him that is invisible, who, however,
 cannot be mocked by any one. And every such act has respect not to man, but to
-God. For God says to Samuel, “They have not mocked thee, but Me.” And Moses
+God. For God says to Samuel, “They have not mocked you, but Me.” And Moses
 declares, “For their murmuring is not against us, but against the Lord God.” No
 one of those has, in fact, remained unpunished, who rose up against their
 superiors. For Dathan and Abiram did not speak against the law, but against
@@ -82,8 +82,7 @@ blessed. To those who indeed talk of the bishop, but do all things without him,
 will He who is the true and first Bishop, and the only High Priest by nature,
 declare, “Why call you Me Lord, and do not the things which I say?” For such
 persons seem to me not possessed of a good conscience, but to be simply
-dissemblers and hypocrites. Let all, then, reverence the deacons as Jesus
-Christ, and the bishop as the
+dissemblers and hypocrites.
 
 ## Chapter 5 - Death is the fate of all such
 
@@ -124,11 +123,11 @@ As therefore the Lord does nothing without the Father, for says He, “I can of
 mine own self do nothing,” so do you, neither presbyter, nor deacon, nor layman,
 do anything without the bishop. Nor let anything appear commendable to you which
 is destitute of his approval. For every such thing is sinful, and opposed to the
-will of God. Do you all come together into the same place for prayer. Let there
-be one common supplication, one mind, one hope, with faith unblameable in Christ
-Jesus, than which nothing is more excellent. Do you all, as one man, run
-together into the temple of God, as unto one altar, to one Jesus Christ, the
-High Priest of the unbegotten God.
+will of God. Do all come together into the same place for prayer. Let there be
+one common supplication, one mind, one hope, with faith blameless in Christ
+Jesus, than which nothing is more excellent. Do all, as one man, run together
+into the temple of God, as unto one altar, to one Jesus Christ, the High Priest
+of the unbegotten God.
 
 ## Chapter 8 - Caution against false doctrines
 
@@ -151,7 +150,7 @@ of hope, expecting the coming of Christ, as the Lord teaches us when He says,
 again, “Your father Abraham rejoiced to see My day, and he saw it, and was glad;
 for before Abraham was, I am;” how shall we be able to live without Him? The
 prophets were His servants, and foresaw Him by the Spirit, and waited for Him as
-their Teacher, and expected Him as their Lord and Saviour, saying, “He will come
+their Teacher, and expected Him as their Lord and Savior, saying, “He will come
 and save us.” Let us therefore no longer keep the Sabbath after the Jewish
 manner, and rejoice in days of idleness; for “he that does not work, let him not
 eat.” For say the holy oracles, “In the sweat of thy face shalt thou eat thy
@@ -164,7 +163,7 @@ the Sabbath, let every friend of Christ keep the Lord’s Day as a festival, the
 resurrection-day, the queen and chief of all the days of the week. Looking
 forward to this, the prophet declared, “To the end, for the eighth day,” on
 which our life both sprang up again, and the victory over death was obtained in
-Christ, whom the children of perdition, the enemies of the Saviour, deny, “whose
+Christ, whom the children of perdition, the enemies of the Savior, deny, “whose
 god is their belly, who mind earthly things,” who are “lovers of pleasure, and
 not lovers of God, having a form of godliness, but denying the power thereof.”
 These make merchandise of Christ, corrupting His word, and giving up Jesus to
@@ -219,15 +218,15 @@ am not worthy to be compared to one of you that are at liberty. I know that you
 are not puffed up, for you have Jesus in yourselves. And all the more when I
 commend you, I know that you cherish modesty of spirit; as it is written, “The
 righteous man is his own accuser;” and again, “Declare thou first thine
-iniquities, that thou mayest be justified;” and again, “When you shall have done
+iniquities, that thou may be justified;” and again, “When you shall have done
 all things that are commanded you, say, We are unprofitable servants;” “for that
 which is highly esteemed among men is abomination in the sight of God.” For says
 the Scripture, “God be merciful to me a sinner.” Therefore those great ones,
 Abraham and Job, styled themselves “dust and ashes” before God. And David says,
-“Who am I before Thee, O Lord, that Thou hast glorified me hitherto?” And Moses,
+“Who am I before you, O Lord, that Thou hast glorified me hitherto?” And Moses,
 who was “the meekest of all men,” saith to God, “I am of a feeble voice, and of
 a slow tongue.” Be you therefore also of a humble spirit, that you may be
-exalted; for “he that abaseth himself shall be exalted, and he that exalteth
+exalted; for “he that abases himself shall be exalted, and he that exalts
 himself shall be abased.”
 
 ## Chapter 13 - Be established in faith and unity
