@@ -122,7 +122,7 @@ resurrection. They are the offspring of that spirit who is the author of all
 evil, who led Adam, by means of his wife, to transgress the commandment, who
 slew Abel by the hands of Cain, who fought against Job, who was the accuser of
 Joshua the son of Josedech, who sought to “sift the faith” of the apostles, who
-stirred up the multitude of the Jews against the Lord, who also now “worketh in
+stirred up the multitude of the Jews against the Lord, who also now “works in
 the children of disobedience; from whom the Lord Jesus Christ will deliver us,
 who prayed that the faith of the apostles might not fail, not because He was not
 able of Himself to preserve it, but because He rejoiced in the pre-eminence of
@@ -153,11 +153,11 @@ Moreover, it is in accordance with reason that we should return to soberness of
 conduct, and, while yet we have opportunity, exercise repentance towards God.
 For “in Hades there is no one who can confess his sins.” For “behold the man,
 and his work is before him.” And the Scripture saith, “My son, honour thou God
-and the king.” And say I, Honour thou God indeed, as the Author and Lord of all
-things, but the bishop as the high-priest, who bears the image of God—of God,
-inasmuch as he is a ruler, and of Christ, in his capacity of a priest. After
-Him, we must also honour the king. For there is no one superior to God, or even
-like to Him, among all the beings that exist. Nor is there any one in the Church
+and the king.” And say I, honour your God indeed, as the Author and Lord of all
+things, but the bishop as the high-priest, who bears the image of God—of God, in
+as much as he is a ruler, and of Christ, in his capacity of a priest. After Him,
+we must also honour the king. For there is no one superior to God, or even like
+to Him, among all the beings that exist. Nor is there any one in the Church
 greater than the bishop, who ministers as a priest to God for the salvation of
 the whole world. Nor, again, is there any one among rulers to be compared with
 the king, who secures peace and good order to those over whom he rules. He who
