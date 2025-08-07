@@ -16,9 +16,9 @@ happiness.
 
 ## Chapter 1 - Acknowledgment of their excellence
 
-I know that you possess an unblameable and sincere mind in patience, and that
-not only for present use, but as a permanent possession, as Polybius your bishop
-has shown me, who has come to Smyrna by the will of God the Father, and the Lord
+I know that you possess a blameless and sincere mind in patience, and that not
+only for present use, but as a permanent possession, as Polybius your bishop has
+shown me, who has come to Smyrna by the will of God the Father, and the Lord
 Jesus Christ, His Son, with the co-operation of the Spirit, and so sympathized
 in the joy which I, who am bound in Christ Jesus, possess, that I beheld your
 whole multitude in Him. Having therefore received through him the testimony of
@@ -60,8 +60,8 @@ do not issue orders like an apostle.
 But I measure myself, that I may not perish through boasting: but it is good to
 glory in the Lord. And even though I were established in things pertaining to
 God, yet then would it befit me to be the more fearful, and not give heed to
-those that vainly puff me up. For those that commend me scourge me. [I do indeed
-desire to suffer], but I know not if I be worthy to do so. For the envy of the
+those that vainly puff me up. For those that commend me scourge me. I do indeed
+desire to suffer, but I know not if I be worthy to do so. For the envy of the
 wicked one is not visible to many, but it wars against me. I therefore have need
 of meekness, by which the devil, the prince of this world, is brought to nought.
 
@@ -210,8 +210,8 @@ Father, who always hears Him, answered and said, “Arise, O God, and judge the
 earth; for Thou shall receive all the heathen for Thine inheritance.” The
 Father, therefore, who raised Him up, will also raise us up through Him, apart
 from whom no one will attain to true life. For says He, “I am the life; he that
-believeth in me, even though he die, shall live: and every one that liveth and
-believeth in me, even though he die, shall live for ever.” Do you therefore flee
+believes in me, even though he die, shall live: and every one that lives and
+believes in me, even though he die, shall live for ever.” Do you therefore flee
 from these ungodly heresies; for they are the inventions of the devil, that
 serpent who was the author of evil, and who by means of the woman deceived Adam,
 the father of our race.
