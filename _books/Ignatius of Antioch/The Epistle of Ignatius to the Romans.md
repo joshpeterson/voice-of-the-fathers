@@ -19,7 +19,7 @@ Father, and is possessed of the Spirit, which I also salute in the name of
 Almighty God, and of Jesus Christ His Son: to those who are united, both
 according to the flesh and spirit, to every one of His commandments, who are
 filled inseparably with all the grace of God, and are purified from every
-strange taint, I wish abundance of happiness unblameably, in God, even the
+strange taint, I wish abundance of happiness blamelessly in God, even the
 Father, and our Lord Jesus Christ.
 
 ## Chapter 1 - As a prisoner, I hope to see you
@@ -49,7 +49,7 @@ to pass from the world to God, that I may rise again unto Him.
 
 ## Chapter 3 - I am the wheat of God
 
-you have never envied any one; you have taught others. Now I desire that those
+You have never envied any one; you have taught others. Now I desire that those
 things may be confirmed by your conduct, which in your instructions you enjoin
 on others. Only request in my behalf both inward and outward strength, that I
 may not only speak, but truly will, so that I may not merely be called a
