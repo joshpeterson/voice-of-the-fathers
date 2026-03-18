@@ -16,6 +16,7 @@ sass:
 exclude:
   - README.md
   - TODO.md
+  - AGENTS.md
 
 safe: true
 lsi: false

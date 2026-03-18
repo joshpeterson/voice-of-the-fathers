@@ -44,14 +44,12 @@ voice-of-the-fathers/
 ├── package.json           # Node.js dependencies
 ├── .prettierrc.json       # Prettier configuration
 ├── .gitignore             # Git ignore patterns
-└── GEMINI.md              # Legacy documentation (deprecated)
 ```
 
 ## Key Configuration Files
 
 ### \_config.yml
 
-- `baseurl`: "voice-of-the-fathers" (GitHub Pages subpath)
 - `url`: "" (empty for GitHub Pages)
 - Collections defined for `authors` and `books`
 - `markdown: kramdown`
@@ -243,7 +241,7 @@ npm install
 ### Local Development
 
 ```bash
-bundle exec jekyll serve --baseurl=""
+bundle exec jekyll serve
 ```
 
 The site will be available at http://localhost:4000
@@ -361,8 +359,8 @@ Examples:
 3. **Match filenames exactly** - Image and audio filenames must match
    author/book titles exactly (case-sensitive)
 4. **Include source attribution** - All book files must have source attribution
-5. **Test locally** - Use `bundle exec jekyll serve --baseurl=""` to test
-   changes before pushing
+5. **Test locally** - Use `bundle exec jekyll serve` to test changes before
+   pushing
 6. **Check all views** - Verify changes work on homepage, author pages, and book
    pages
 
@@ -406,7 +404,7 @@ npm run format
 Before committing changes:
 
 - [ ] Run `npm run format` and ensure no formatting errors
-- [ ] Run `bundle exec jekyll serve --baseurl=""` locally
+- [ ] Run `bundle exec jekyll serve` locally
 - [ ] Check homepage displays correctly
 - [ ] Verify author pages show author image, bio, and book list
 - [ ] Verify book pages show content, audio player, and all fixed buttons work
