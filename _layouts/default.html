@@ -3,6 +3,34 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      property="og:title"
+      content="{% if page.title %}{{ page.title }}{% else %}Voice of the Fathers{% endif %}"
+    />
+    <meta
+      property="og:description"
+      content="Read the writings of the early church fathers"
+    />
+    <meta
+      property="og:image"
+      content="https://voiceofthefathers.org/assets/images/preview.png"
+    />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Voice of the Fathers" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="{% if page.title %}{{ page.title }}{% else %}Voice of the Fathers{% endif %}"
+    />
+    <meta
+      name="twitter:description"
+      content="Read the writings of the early church fathers"
+    />
+    <meta
+      name="twitter:image"
+      content="https://voiceofthefathers.org/assets/images/preview.png"
+    />
     <title>
       {% if page.title %}{{ page.title }}{% else %}Voice of the Fathers{% endif
       %}
