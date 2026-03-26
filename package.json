@@ -4,6 +4,10 @@
   "description": "A Jekyll site for Voice of the Fathers",
   "main": "index.js",
   "scripts": {
+    "build:css": "npx @tailwindcss/cli -i ./assets/css/main.css -o ./assets/css/tailwind.compiled.css && mv ./assets/css/tailwind.compiled.css ./assets/css/main.css",
+    "build": "npm run build:css && bundle exec jekyll build && cp assets/css/main.css _site/assets/css/main.css",
+    "serve": "bundle exec jekyll serve",
+    "dev": "npm run build:css && bundle exec jekyll serve",
     "format": "prettier --write .",
     "check-format": "prettier --check ."
   },
@@ -12,6 +16,9 @@
   "license": "ISC",
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "^1.9.3",
-    "prettier": "^3.6.1"
+    "@tailwindcss/postcss": "^4.2.2",
+    "@tailwindcss/typography": "^0.5.19",
+    "prettier": "^3.6.1",
+    "tailwindcss": "^4.2.2"
   }
 }

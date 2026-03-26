@@ -2,44 +2,30 @@
 layout: default
 ---
 
-<style>
-  .author-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-  }
-
-  .author-card {
-    width: 100%;
-    /* 
-      The max-width for an author card is 512px for the image
-      and 42px of padding - 21px on each side.
-    */
-    max-width: 554px;
-    box-sizing: border-box;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-</style>
-
-<div class="author-list">
+<div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
   {% for author in site.authors %}
-  <div class="author-card">
-    <a href="{{ author.url | relative_url }}">
-      <article>
-        <h1>{{ author.title }}</h1>
-        <img
-          class="author-image-large"
-          src="assets/images/{{ author.title }}.jpg"
-        />
-      </article>
-    </a>
-  </div>
+  <a
+    href="{{ author.url | relative_url }}"
+    class="group block bg-stone-100 dark:bg-stone-900 rounded-xl overflow-hidden hover:shadow-lg transition-all hover:-translate-y-1"
+  >
+    <img
+      src="assets/images/{{ author.title }}.jpg"
+      alt="{{ author.title }}"
+      class="w-full h-48 object-cover"
+    />
+    <div class="p-6">
+      <h2
+        class="text-xl font-bold text-stone-900 dark:text-stone-100 group-hover:text-stone-700 dark:group-hover:text-stone-300 mb-2"
+      >
+        {{ author.title }}
+      </h2>
+      <p class="text-sm text-stone-600 dark:text-stone-400">
+        {% assign book_count = 0 %} {% for book in site.books %} {% if
+        book.author == author.title %} {% assign book_count = book_count | plus:
+        1 %} {% endif %} {% endfor %} {{ book_count }} {% if book_count == 1
+        %}book{% else %}books{% endif %}
+      </p>
+    </div>
+  </a>
   {% endfor %}
 </div>
