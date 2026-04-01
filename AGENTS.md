@@ -14,9 +14,9 @@ narration with a built-in player.
 
 - **Static Site Generator:** Jekyll 4.3.4
 - **Package Managers:** Bundler (Ruby gems), npm (Node.js packages)
-- **Frontend:** HTML, CSS (Pico.css), JavaScript (minimal)
+- **Frontend:** HTML, CSS, JavaScript (minimal)
 - **Markdown Processor:** Kramdown
-- **Styling:** Pico.css framework with custom CSS
+- **Styling:** Tailwind CSS v4.2.2 with @tailwindcss/typography plugin
 - **Audio Player:** Plyr.js (CDN)
 - **Code Formatter:** Prettier with @shopify/prettier-plugin-liquid
 
@@ -32,18 +32,23 @@ voice-of-the-fathers/
 │   ├── author.html        # Author profile page layout
 │   └── book.html          # Book content page with audio player
 ├── assets/
-│   ├── images/            # Author portrait images
-│   └── sounds/            # Audio files organized by author
-├── css/
-│   └── pico.min.css       # Pico.css framework
-├── index.html             # Homepage listing all authors
-├── about.md               # About page
-├── 404.html               # Custom 404 page
-├── _config.yml            # Jekyll configuration
-├── Gemfile                # Ruby gem dependencies
-├── package.json           # Node.js dependencies
-├── .prettierrc.json       # Prettier configuration
-├── .gitignore             # Git ignore patterns
+│   ├── css/
+│   │   └── main.css          # Tailwind CSS source file
+│   ├── images/               # Author portrait images
+│   └── sounds/               # Audio files organized by author
+├── _layouts/                 # Jekyll layouts
+│   ├── default.html          # Base layout with navigation and styles
+│   ├── author.html           # Author profile page layout
+│   └── book.html             # Book content page with audio player
+├── index.html                # Homepage listing all authors
+├── about.md                  # About page
+├── 404.html                  # Custom 404 page
+├── _config.yml               # Jekyll configuration
+├── Gemfile                   # Ruby gem dependencies
+├── package.json              # Node.js dependencies
+├── tailwind.config.js        # Tailwind configuration (optional)
+├── .prettierrc.json          # Prettier configuration
+├── .gitignore                # Git ignore patterns
 ```
 
 ## Key Configuration Files
@@ -58,9 +63,15 @@ voice-of-the-fathers/
 
 ### package.json
 
+- `npm run dev`: Build Tailwind CSS and start Jekyll server (recommended for
+  local development)
+- `npm run build`: Build Tailwind CSS and Jekyll site for production
+- `npm run build:css`: Build Tailwind CSS only
+- `npm run serve`: Start Jekyll server without building CSS
 - `npm run format`: Format all files with Prettier
 - `npm run check-format`: Check formatting with Prettier
-- Dependencies: Prettier 3.6.1, @shopify/prettier-plugin-liquid 1.9.3
+- Dependencies: Tailwind CSS 4.2.2, @tailwindcss/postcss,
+  @tailwindcss/typography, Prettier 3.6.1, @shopify/prettier-plugin-liquid 1.9.3
 
 ### .prettierrc.json
 
@@ -122,7 +133,7 @@ Base layout that includes:
 
 - HTML5 doctype and metadata
 - Merriweather font (Google Fonts)
-- Pico.css stylesheet
+- Tailwind CSS stylesheet
 - Custom CSS for styling
 - Navigation bar with "Voice of the Fathers" title and About link
 - Skip to main content link for accessibility
@@ -153,6 +164,10 @@ Extends default.html. Includes:
 - Book content with proper styling
 - JavaScript for font size toggle (persists in localStorage)
 - Print styles (hides UI elements, adjusts text for print)
+
+### prose.html
+
+Extends default.html. Uses for non-book text that should be formatted.
 
 ## Adding New Content
 
@@ -241,18 +256,26 @@ npm install
 ### Local Development
 
 ```bash
-bundle exec jekyll serve
+npm run dev
 ```
 
-The site will be available at http://localhost:4000
+This builds Tailwind CSS and starts the Jekyll server. The site will be
+available at http://localhost:4000
+
+To start Jekyll server without building CSS:
+
+```bash
+npm run serve
+```
 
 ### Building for Production
 
 ```bash
-bundle exec jekyll build
+npm run build
 ```
 
-Output will be in the `_site/` directory
+This builds Tailwind CSS and Jekyll site. Output will be in the `_site/`
+directory.
 
 ### Code Formatting
 
@@ -293,6 +316,15 @@ Examples:
 - No workflow files needed; GitHub Pages handles deployment automatically
 
 ## Styling Conventions
+
+### Tailwind CSS
+
+This project uses Tailwind CSS v4.2.2 with the @tailwindcss/typography plugin
+for prose styling.
+
+- Source file: `assets/css/main.css`
+- The CSS is compiled from this source file using `@tailwindcss/cli`
+- Custom styles are defined in this file using Tailwind's `@theme` directive
 
 ### Typography
 
@@ -359,8 +391,7 @@ Examples:
 3. **Match filenames exactly** - Image and audio filenames must match
    author/book titles exactly (case-sensitive)
 4. **Include source attribution** - All book files must have source attribution
-5. **Test locally** - Use `bundle exec jekyll serve` to test changes before
-   pushing
+5. **Test locally** - Use `npm run dev` to test changes before pushing
 6. **Check all views** - Verify changes work on homepage, author pages, and book
    pages
 
@@ -404,7 +435,7 @@ npm run format
 Before committing changes:
 
 - [ ] Run `npm run format` and ensure no formatting errors
-- [ ] Run `bundle exec jekyll serve` locally
+- [ ] Run `npm run dev` locally
 - [ ] Check homepage displays correctly
 - [ ] Verify author pages show author image, bio, and book list
 - [ ] Verify book pages show content, audio player, and all fixed buttons work
@@ -444,5 +475,5 @@ Before committing changes:
 - This site uses custom permalink structure for SEO and organization
 - Audio files are currently being organized (see TODO.md)
 - About page needs content (see TODO.md)
-- The site uses a minimal design philosophy with Pico.css
+- The site uses Tailwind CSS v4.2.2 with @tailwindcss/typography plugin
 - Merriweather font is used throughout for readability of long-form content
