@@ -3,6 +3,7 @@ title: The Epistle of Ignatius to the Philadelphians
 layout: book
 author: Ignatius of Antioch
 permalink: authors/ignatius-of-antioch/:name
+order: 4
 ---
 
 ## Introduction

@@ -3,6 +3,7 @@ title: The Epistle of Ignatius to the Smyrnaeans
 layout: book
 author: Ignatius of Antioch
 permalink: authors/ignatius-of-antioch/:name
+order: 5
 ---
 
 ## Introduction

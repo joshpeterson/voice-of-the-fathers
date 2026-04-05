@@ -20,7 +20,8 @@ layout: default
   Books
 </h2>
 <div class="grid gap-4">
-  {% for book in site.books %} {% if book.author == page.title %}
+  {% assign author_books = site.books | where: "author", page.title | sort:
+  "order" %} {% for book in author_books %}
   <a
     href="{{ book.url | relative_url }}"
     class="block p-6 bg-stone-100 dark:bg-stone-900 rounded-lg hover:bg-stone-200 dark:hover:bg-stone-800 transition-colors shadow-sm"
@@ -31,5 +32,5 @@ layout: default
       {{ book.title }}
     </h3>
   </a>
-  {% endif %} {% endfor %}
+  {% endfor %}
 </div>
