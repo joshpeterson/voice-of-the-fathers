@@ -33,7 +33,7 @@ If you love the good disciples, no thanks are due to you on that account; but
 rather seek by meekness to subdue the more troublesome. Every kind of wound is
 not healed with the same plaster. Mitigate violent attacks of disease by gentle
 applications. Be in all things “wise as a serpent, and harmless always as a
-dove.” For this purpose you are composed of both soul and body, art both fleshly
+dove.” For this purpose you are composed of both soul and body, are both fleshly
 and spiritual, that you may correct those evils that present themselves visibly
 before you; and as respects those that are not seen, may pray that these should
 be revealed to you, so that you may be wanting in nothing, but may abound in
@@ -41,8 +41,8 @@ every gift. The times call upon you to pray. For as the wind aids the pilot of a
 ship, and as havens are advantageous for safety to a tempest-tossed vessel, so
 is also prayer to you, in order that you may attain to God. Be sober as an
 athlete of God, whose will is immortality and eternal life; of which you are
-also persuaded. In all things may my soul be for thine, and my bonds also, which
-you hast loved.
+also persuaded. In all things may my soul be for yours, and my bonds also, which
+you have loved.
 
 ## Chapter 3 - Exhortations
 
@@ -63,9 +63,9 @@ sakes as man; and who in every kind of way suffered for our sakes.
 
 Let not the widows be neglected. Be you, after the Lord, their protector and
 friend. Let nothing be done without your consent; neither do you anything
-without the approval of God, which indeed you does not. Be you steadfast. Let
-your assembling together be of frequent occurrence: seek after all by name. Do
-not despise either male or female slaves, yet neither let them be puffed up with
+without the approval of God, which indeed you do not. Be you steadfast. Let your
+assembling together be of frequent occurrence: seek after all by name. Do not
+despise either male or female slaves, yet neither let them be puffed up with
 conceit, but rather let them submit themselves the more, for the glory of God,
 that they may obtain from God a better liberty. Let them not wish to be set free
 from slavery at the public expense, that they be not found slaves to their own
@@ -112,13 +112,13 @@ praise of God. A Christian has not power over himself, but must always be ready
 for the service of God. Now, this work is both God’s and yours, when you shall
 have completed it. For I trust that, through grace, you are prepared for every
 good work pertaining to God. Knowing your energetic love of the truth, I have
-exhorted you by this brief Epistle.
+exhorted you by this brief epistle.
 
 ## Chapter 8 - Let other churches also send to Antioch
 
-Inasmuch, therefore, as I have not been able to write to all Churches, because I
-must suddenly sail from Troas to Neapolis, as the will of the emperor enjoins, I
-beg that you, as being acquainted with the purpose of God, wilt write to the
+In as much, therefore, as I have not been able to write to all Churches, because
+I must suddenly sail from Troas to Neapolis, as the will of the emperor enjoins,
+I beg that you, as being acquainted with the purpose of God, will write to the
 adjacent Churches, that they also may act in like manner, such as are able to do
 so sending messenger, and the others transmitting letters through those persons
 who are sent by you, that you may be glorified by a work which shall be
