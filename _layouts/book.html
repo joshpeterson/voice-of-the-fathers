@@ -8,6 +8,37 @@ layout: default
     :root {
       --base-font-scale: 1;
     }
+    .tooltip {
+      position: absolute;
+      right: calc(100% + 12px);
+      top: 50%;
+      transform: translateY(-50%) translateX(10px);
+      background: #292524;
+      color: #fafaf9;
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 14px;
+      white-space: nowrap;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.2s ease;
+      z-index: 50;
+    }
+    .tooltip::before {
+      content: "";
+      position: absolute;
+      left: -4px;
+      top: 50%;
+      transform: translateY(-50%);
+      border-width: 6px;
+      border-style: solid;
+      border-color: transparent #292524 transparent transparent;
+    }
+    .tooltip-trigger:hover .tooltip {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(-50%) translateX(0);
+    }
     @media print {
       .no-print {
         display: none !important;
@@ -54,7 +85,7 @@ layout: default
     <button
       onclick="window.print()"
       class="flex flex-col items-center gap-1 text-xs text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100"
-      aria-label="Print"
+      aria-label="Print this book"
     >
       <span class="text-xl">🖨️</span>
       <span>Print</span>
@@ -62,7 +93,7 @@ layout: default
     <a
       href="#audio-modal"
       class="flex flex-col items-center gap-1 text-xs text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100"
-      aria-label="Listen"
+      aria-label="Listen to audio narration"
     >
       <span class="text-xl">🎧</span>
       <span>Listen</span>
@@ -71,7 +102,7 @@ layout: default
       href="/assets/sounds/{{ page.author }}/{{ page.title }}.m4a"
       download
       class="flex flex-col items-center gap-1 text-xs text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100"
-      aria-label="Download"
+      aria-label="Download audio file"
     >
       <span class="text-xl">⬇️</span>
       <span>Download</span>
@@ -91,43 +122,58 @@ layout: default
   class="no-print fixed right-4 top-1/2 -translate-y-1/2 hidden md:flex flex-col gap-4 z-40"
 >
   {% for author in site.authors %} {% if author.title == page.author %}
-  <a
-    href="{{ author.url | relative_url }}"
-    class="w-14 h-14 flex items-center justify-center bg-stone-200 dark:bg-stone-800 text-stone-700 dark:text-stone-300 rounded-full hover:bg-stone-300 dark:hover:bg-stone-700 shadow-md"
-    aria-label="About the author"
-  >
-    <span class="text-xl font-bold">🖋️</span>
-  </a>
+  <div class="tooltip-trigger relative">
+    <a
+      href="{{ author.url | relative_url }}"
+      class="w-14 h-14 flex items-center justify-center bg-stone-200 dark:bg-stone-800 text-stone-700 dark:text-stone-300 rounded-full hover:bg-stone-300 dark:hover:bg-stone-700 shadow-md"
+      aria-label="About the author"
+    >
+      <span class="text-xl font-bold">🖋️</span>
+    </a>
+    <span class="tooltip">About the author</span>
+  </div>
   {% endif %} {% endfor %}
-  <button
-    onclick="window.print()"
-    class="w-14 h-14 flex items-center justify-center bg-stone-200 dark:bg-stone-800 text-stone-700 dark:text-stone-300 rounded-full hover:bg-stone-300 dark:hover:bg-stone-700 shadow-md"
-    aria-label="Print"
-  >
-    <span class="text-xl">🖨️</span>
-  </button>
-  <a
-    href="#audio-modal"
-    class="w-14 h-14 flex items-center justify-center bg-stone-200 dark:bg-stone-800 text-stone-700 dark:text-stone-300 rounded-full hover:bg-stone-300 dark:hover:bg-stone-700 shadow-md"
-    aria-label="Listen"
-  >
-    <span class="text-xl">🎧</span>
-  </a>
-  <a
-    href="/assets/sounds/{{ page.author }}/{{ page.title }}.m4a"
-    download
-    class="w-14 h-14 flex items-center justify-center bg-stone-200 dark:bg-stone-800 text-stone-700 dark:text-stone-300 rounded-full hover:bg-stone-300 dark:hover:bg-stone-700 shadow-md"
-    aria-label="Download"
-  >
-    <span class="text-xl">⬇️</span>
-  </a>
-  <button
-    onclick="toggleFontSize()"
-    class="w-14 h-14 flex items-center justify-center bg-stone-200 dark:bg-stone-800 text-stone-700 dark:text-stone-300 rounded-full hover:bg-stone-300 dark:hover:bg-stone-700 shadow-md"
-    aria-label="Change font size"
-  >
-    <span class="text-lg font-bold">Aa</span>
-  </button>
+  <div class="tooltip-trigger relative">
+    <button
+      onclick="window.print()"
+      class="w-14 h-14 flex items-center justify-center bg-stone-200 dark:bg-stone-800 text-stone-700 dark:text-stone-300 rounded-full hover:bg-stone-300 dark:hover:bg-stone-700 shadow-md"
+      aria-label="Print this book"
+    >
+      <span class="text-xl">🖨️</span>
+    </button>
+    <span class="tooltip">Print this book</span>
+  </div>
+  <div class="tooltip-trigger relative">
+    <a
+      href="#audio-modal"
+      class="w-14 h-14 flex items-center justify-center bg-stone-200 dark:bg-stone-800 text-stone-700 dark:text-stone-300 rounded-full hover:bg-stone-300 dark:hover:bg-stone-700 shadow-md"
+      aria-label="Listen to audio narration"
+    >
+      <span class="text-xl">🎧</span>
+    </a>
+    <span class="tooltip">Listen to audio narration</span>
+  </div>
+  <div class="tooltip-trigger relative">
+    <a
+      href="/assets/sounds/{{ page.author }}/{{ page.title }}.m4a"
+      download
+      class="w-14 h-14 flex items-center justify-center bg-stone-200 dark:bg-stone-800 text-stone-700 dark:text-stone-300 rounded-full hover:bg-stone-300 dark:hover:bg-stone-700 shadow-md"
+      aria-label="Download audio file"
+    >
+      <span class="text-xl">⬇️</span>
+    </a>
+    <span class="tooltip">Download audio file</span>
+  </div>
+  <div class="tooltip-trigger relative">
+    <button
+      onclick="toggleFontSize()"
+      class="w-14 h-14 flex items-center justify-center bg-stone-200 dark:bg-stone-800 text-stone-700 dark:text-stone-300 rounded-full hover:bg-stone-300 dark:hover:bg-stone-700 shadow-md"
+      aria-label="Change font size"
+    >
+      <span class="text-lg font-bold">Aa</span>
+    </button>
+    <span class="tooltip">Change font size</span>
+  </div>
 </div>
 
 <div
