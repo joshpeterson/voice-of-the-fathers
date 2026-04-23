@@ -99,7 +99,7 @@ layout: default
       <span>Listen</span>
     </a>
     <a
-      href="/assets/sounds/{{ page.author }}/{{ page.title }}.m4a"
+      href="/assets/sounds/{{ page.author }}/{{ page.title }}.mp3"
       download
       class="flex flex-col items-center gap-1 text-xs text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100"
       aria-label="Download audio file"
@@ -155,7 +155,7 @@ layout: default
   </div>
   <div class="tooltip-trigger relative">
     <a
-      href="/assets/sounds/{{ page.author }}/{{ page.title }}.m4a"
+      href="/assets/sounds/{{ page.author }}/{{ page.title }}.mp3"
       download
       class="w-14 h-14 flex items-center justify-center bg-stone-200 dark:bg-stone-800 text-stone-700 dark:text-stone-300 rounded-full hover:bg-stone-300 dark:hover:bg-stone-700 shadow-md"
       aria-label="Download audio file"
@@ -196,8 +196,8 @@ layout: default
     <p class="text-stone-600 dark:text-stone-400 mb-4">By {{ page.author }}</p>
     <audio id="player" class="w-full" controls preload="none">
       <source
-        src="/assets/sounds/{{ page.author }}/{{ page.title }}.m4a"
-        type="audio/mp4"
+        src="/assets/sounds/{{ page.author }}/{{ page.title }}.mp3"
+        type="audio/mpeg"
       />
     </audio>
   </div>
@@ -268,14 +268,7 @@ layout: default
     });
 
     const modal = document.getElementById("audio-modal");
-    const openBtn = document.querySelector('a[href="#audio-modal"]');
-    const closeBtn = document.querySelector("#audio-modal button");
-
-    openBtn?.addEventListener("click", (e) => {
-      e.preventDefault();
-      modal.classList.remove("hidden");
-      modal.classList.add("flex");
-    });
+    const openBtns = document.querySelectorAll('a[href="#audio-modal"]');
 
     function closeModal() {
       modal.classList.add("hidden");
@@ -283,6 +276,17 @@ layout: default
       player.pause();
     }
 
+    window.closeModal = closeModal;
+
+    openBtns.forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        modal.classList.remove("hidden");
+        modal.classList.add("flex");
+      });
+    });
+
+    const closeBtn = document.querySelector("#audio-modal button");
     closeBtn?.addEventListener("click", closeModal);
 
     modal.addEventListener("click", (e) => {

@@ -197,7 +197,7 @@ Extends default.html. Uses for non-book text that should be formatted.
    - The `:name` placeholder will be replaced with the book's slugified title
 3. Write book content in markdown
 4. Add proper source attribution at the end of the file
-5. Add audio file: `assets/sounds/{Author Name}/{Book Title}.m4a`
+5. Add audio file: `assets/sounds/{Author Name}/{Book Title}.mp3`
 
 ### Permalink Structure
 
@@ -380,8 +380,8 @@ for prose styling.
 
 - Location: `assets/sounds/{Author Name}/`
 - Filename must match book title exactly:
-  `The Epistle of Ignatius to the Trallians.m4a`
-- Format: .m4a (AAC audio)
+  `The Epistle of Ignatius to the Trallians.mp3`
+- Format: .mp3
 
 ## Important Notes
 
@@ -455,7 +455,7 @@ Before committing changes:
 ### Audio not playing
 
 - Check that audio file exists at correct path:
-  `assets/sounds/{Author Name}/{Book Title}.m4a`
+  `assets/sounds/{Author Name}/{Book Title}.mp3`
 - Verify filename matches book title exactly
 - Check browser console for errors
 
