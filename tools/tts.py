@@ -123,7 +123,7 @@ def main():
     parser = argparse.ArgumentParser(description="Convert markdown book to combined WAV audio using InWorld TTS")
     parser.add_argument("input", help="Input markdown file (e.g., _books/Author/Book.md)")
     parser.add_argument("-o", "--output-dir", default=".", help="Output directory for WAV files")
-    parser.add_argument("--voice-id", default="default-ghad8ngjnvrz1rh74yggug__josh", help="Voice ID to use (default: Josh)")
+    parser.add_argument("--voice-id", default="Graham", help="Voice ID to use (default: Graham)")
     parser.add_argument("--model", default="inworld-tts-1.5-max", help="Model ID (default: inworld-tts-1.5-max)")
     parser.add_argument("--api-key", default=os.getenv("INWORLD_API_KEY"), help="API key (or set INWORLD_API_KEY env var)")
     
