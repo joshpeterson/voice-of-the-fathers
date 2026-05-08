@@ -88,6 +88,13 @@ def parse_chapters(content: str) -> list[tuple[str, str]]:
     return chapters
 
 
+def strip_urls(text: str) -> str:
+    """Remove URLs from markdown-style links, keeping link text."""
+    text = re.sub(r'\[([^\]]*)\]\([^)]+\)', r'\1', text)
+    text = re.sub(r'https?://\S+', '', text)
+    return text
+
+
 def split_to_chunks(text: str, max_chars: int = 2000) -> list[str]:
     """Split text into chunks of max_chars, trying to break at sentence boundaries."""
     if len(text) <= max_chars:
@@ -148,6 +155,9 @@ def main():
     if not content:
         print("Error: input file is empty", file=sys.stderr)
         sys.exit(1)
+    
+    # Strip URLs from content
+    content = strip_urls(content)
     
     # Parse chapters
     chapters = parse_chapters(content)
