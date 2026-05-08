@@ -6,6 +6,8 @@ import base64
 import io
 import os
 import re
+import shutil
+import subprocess
 import sys
 import wave
 from pathlib import Path
@@ -93,6 +95,23 @@ def strip_urls(text: str) -> str:
     text = re.sub(r'\[([^\]]*)\]\([^)]+\)', r'\1', text)
     text = re.sub(r'https?://\S+', '', text)
     return text
+
+
+def convert_wav_to_mp3(wav_path: Path, mp3_path: Path) -> None:
+    """Convert WAV file to MP3 using ffmpeg."""
+    subprocess.run(
+        ["ffmpeg", "-y", "-i", str(wav_path), "-codec:a", "libmp3lame", "-q:a", "2", str(mp3_path)],
+        check=True,
+        capture_output=True
+    )
+
+
+def get_author_and_book(input_path: str) -> tuple[str, str]:
+    """Extract author name and book title from input path."""
+    path = Path(input_path)
+    author = path.parent.name
+    book_title = path.stem
+    return author, book_title
 
 
 def split_to_chunks(text: str, max_chars: int = 2000) -> list[str]:
@@ -211,6 +230,16 @@ def main():
     with open(output_dir / wav_filename, "wb") as f:
         f.write(combined_wav)
     print(f"\nSaved: {wav_filename} ({len(combined_wav)} bytes)")
+    
+    author, book_title = get_author_and_book(args.input)
+    sounds_dir = Path("assets/sounds") / author
+    sounds_dir.mkdir(parents=True, exist_ok=True)
+    
+    mp3_path = sounds_dir / f"{book_title}.mp3"
+    wav_path = output_dir / wav_filename
+    
+    convert_wav_to_mp3(wav_path, mp3_path)
+    print(f"Saved MP3: {mp3_path}")
     
     print("\nDone!")
 
