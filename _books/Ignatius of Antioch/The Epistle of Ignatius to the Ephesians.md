@@ -113,9 +113,9 @@ which might distress you, you are certainly living in accordance with God’s
 will. I am far inferior to you, and require to be sanctified by your Church of
 Ephesus, so renowned throughout the world. They that are carnal cannot do those
 things which are spiritual, nor they that are spiritual the things which are
-carnal; even as faith cannot do the works of unbelief, 53 nor unbelief the works
-of faith. But even those things which you do according to the flesh are
-spiritual; for you do all things in Jesus Christ.
+carnal; even as faith cannot do the works of unbelief, nor unbelief the works of
+faith. But even those things which you do according to the flesh are spiritual;
+for you do all things in Jesus Christ.
 
 ## Chapter 9 - you have given no heed to false teachers
 
@@ -135,23 +135,23 @@ Christian life you love nothing but God only.
 ## Chapter 10 - Exhortations to prayer, humility, etc
 
 And pray you without ceasing in behalf of other men. For there is in them hope
-of repentance that they 54 may attain to God. See, then, that they be instructed
-by your works, if in no other way. Be you meek in response to their wrath,
-humble in opposition to their boasting: to their blasphemies return your
-prayers; in contrast to their error, be you steadfast in the faith; and for
-their cruelty, manifest your gentleness. While we take care not to imitate their
-conduct, let us be found their brethren in all true kindness; and let us seek to
-be followers of the Lord (who ever more unjustly treated, more destitute, more
-condemned?), that so no plant of the devil may be found in you, but you may
-remain in all holiness and sobriety in Jesus Christ, both with respect to the
-flesh and spirit.
+of repentance that they may attain to God. See, then, that they be instructed by
+your works, if in no other way. Be you meek in response to their wrath, humble
+in opposition to their boasting: to their blasphemies return your prayers; in
+contrast to their error, be you steadfast in the faith; and for their cruelty,
+manifest your gentleness. While we take care not to imitate their conduct, let
+us be found their brethren in all true kindness; and let us seek to be followers
+of the Lord (who ever more unjustly treated, more destitute, more condemned?),
+that so no plant of the devil may be found in you, but you may remain in all
+holiness and sobriety in Jesus Christ, both with respect to the flesh and
+spirit.
 
 ## Chapter 11 - An exhortation to fear God, etc
 
 The last times are come upon us. Let us therefore be of a reverent spirit, and
 fear the long-suffering of God, that it tend not to our condemnation. For let us
 either stand in awe of the wrath to come, or show regard for the grace which is
-at present displayed— one of two things. Only (in one way or another) let us be
+at present displayed - one of two things. Only (in one way or another) let us be
 found in Christ Jesus unto the true life. Apart from Him, let nothing attract
 you, for whom I bear about these bonds, these spiritual jewels, by which may I
 arise through your prayers, of which I entreat I may always be a partaker, that
@@ -161,9 +161,9 @@ the same mind with the apostles through the power of Jesus Christ.
 ## Chapter 12 - Praise of the Ephesians
 
 I know both who I am, and to whom I write. I am a condemned man, you have been
-the objects of 55 mercy; I am subject to danger, you are established in safety.
-You are the persons through whom those pass that are cut off for the sake of
-God. You are initiated into the mysteries of the Gospel with Paul, the holy, the
+the objects of mercy; I am subject to danger, you are established in safety. You
+are the persons through whom those pass that are cut off for the sake of God.
+You are initiated into the mysteries of the Gospel with Paul, the holy, the
 martyred, the deservedly most happy, at whose feet may I be found, when I shall
 attain to God; who in all his Epistles makes mention of you in Christ Jesus.
 
@@ -192,13 +192,13 @@ be found continuing in the power of faith to the end.
 It is better for a man to be silent and be (a Christian), than to talk and not
 to be one. It is good to teach, if he who speaks also acts. There is then one
 Teacher, who spake and it was done; while even those things which He did in
-silence are worthy of 56 the Father. He who possesses the word of Jesus, is
-truly able to hear even His very silence, that he may be perfect, and may both
-act as he speaks, and be recognized by his silence. There is nothing which is
-hid from God, but our very secrets are near to Him. Let us therefore do all
-things as those who have Him dwelling in us, that we may be His temples, and He
-may be in us as our God, which indeed He is, and will manifest Himself before
-our faces. Wherefore we justly love Him.
+silence are worthy of the Father. He who possesses the word of Jesus, is truly
+able to hear even His very silence, that he may be perfect, and may both act as
+he speaks, and be recognized by his silence. There is nothing which is hid from
+God, but our very secrets are near to Him. Let us therefore do all things as
+those who have Him dwelling in us, that we may be His temples, and He may be in
+us as our God, which indeed He is, and will manifest Himself before our faces.
+Wherefore we justly love Him.
 
 ## Chapter 16 - The fate of false teachers
 
@@ -222,7 +222,7 @@ us?
 ## Chapter 18 - The glory of the cross
 
 Let my spirit be counted as nothing for the sake of the cross, which is a
-stumbling-block to those that do not believe, but to us salvation and 57 life
+stumbling-block to those that do not believe, but to us salvation and life
 eternal. “Where is the wise man? Where the disputer?” Where is the boasting of
 those who are styled prudent? For our God, Jesus Christ, was, according to the
 appointment of God, conceived in the womb by Mary, of the seed of David, but by
@@ -252,7 +252,7 @@ His will, I shall, in a second little work which I will write to you, make
 further manifest to you (the nature of) the dispensation of which I have begun
 (to treat), with respect to the new man, Jesus Christ, in His faith and in His
 love, in His suffering and in His resurrection. Especially (will I do this) if
-the Lord make known to me that you come together 58 man by man in common through
+the Lord make known to me that you come together man by man in common through
 grace, individually, in one faith, and in Jesus Christ, who was of the seed of
 David according to the flesh, being both the Son of man and the Son of God, so
 that you obey the bishop and the presbytery with an undivided mind, breaking one
