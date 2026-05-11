@@ -118,10 +118,10 @@ also trades, that they may not indulge in idleness. Now the Scripture says, “A
 righteous father educates his children well; his heart shall rejoice in a wise
 son.” Masters, be gentle towards your servants, as holy Job has taught you; for
 there is one nature, and one family of mankind. For “in Christ there is neither
-bond nor free.” Let governors be obedient to Cæsar; soldiers to those that
+bond nor free.” Let governors be obedient to Caesar; soldiers to those that
 command them; deacons to the presbyters, as to high-priests; the presbyters, and
 deacons, and the rest of the clergy, together with all the people, and the
-soldiers, and the governors, and Cæsar himself, to the bishop; the bishop to
+soldiers, and the governors, and Caesar himself, to the bishop; the bishop to
 Christ, even as Christ to the Father. And thus unity is preserved throughout.
 Let not the widows be wanderers about, nor fond of dainties, nor gadders from
 house to house; but let them be like Judith, noted for her seriousness; and like
@@ -269,7 +269,7 @@ have received them: and the Lord will also receive you. But may those that
 dishonoured them be forgiven through the grace of Jesus Christ, “who wisheth not
 the death of the sinner, but his repentance.” The love of the brethren at Troas
 salutes you; whence also I write to you by Burrhus, who was sent along with me
-by the Ephesians and Smyrnæans, to show their respect: whom the Lord Jesus
+by the Ephesians and Smyrnaeans, to show their respect: whom the Lord Jesus
 Christ will requite, in whom they hope, in flesh, and soul, and spirit, and
 faith, and love, and concord. Fare you well in the Lord Jesus Christ, our common
 hope, in the Holy Ghost.
