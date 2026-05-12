@@ -15,7 +15,7 @@ from pathlib import Path
 import requests
 
 
-def synthesize(text: str, api_key: str, voice_id: str, model_id: str = "inworld-tts-1.5-max") -> bytes:
+def synthesize(text: str, api_key: str, voice_id: str, model_id: str = "inworld-tts-2") -> bytes:
     """Send text to InWorld API and return raw audio bytes."""
     url = "https://api.inworld.ai/tts/v1/voice"
     
@@ -150,7 +150,7 @@ def main():
     parser.add_argument("input", help="Input markdown file (e.g., _books/Author/Book.md)")
     parser.add_argument("-o", "--output-dir", default=".", help="Output directory for WAV files")
     parser.add_argument("--voice-id", default="Graham", help="Voice ID to use (default: Graham)")
-    parser.add_argument("--model", default="inworld-tts-1.5-max", help="Model ID (default: inworld-tts-1.5-max)")
+    parser.add_argument("--model", default="inworld-tts-2", help="Model ID (default: inworld-tts-2)")
     parser.add_argument("--api-key", default=os.getenv("INWORLD_API_KEY"), help="API key (or set INWORLD_API_KEY env var)")
     
     args = parser.parse_args()
