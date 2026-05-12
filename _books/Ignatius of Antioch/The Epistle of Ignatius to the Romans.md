@@ -41,7 +41,7 @@ please Him. For neither shall I ever hereafter have such an opportunity of
 attaining to God; nor will you, if you shall now be silent, ever be entitled to
 the honour of a better work. For if you are silent concerning me, I shall become
 God’s; but if you show your love to my flesh, I shall again have to run my race.
-Pray, then, do not seek to confer any greater favour upon me than that I be
+Pray, then, do not seek to confer any greater favor upon me than that I be
 sacrificed to God, while the altar is still prepared; that, being gathered
 together in love, you may sing praise to the Father, through Christ Jesus, that
 God has deemed me, the bishop of Syria, worthy to be sent for from the east unto
@@ -123,7 +123,7 @@ should I, when present with you, exhort you to it, be you persuaded, but rather
 give credit to those things which I now write to you. For though I am alive
 while I write to you, yet I am eager to die for the sake of Christ. My love has
 been crucified, and there is no fire in me that loves anything; but there is
-living water springing up in me, and which says to me inwardly, Come to the
+living water springing up in me, and which says to me inwardly, come to the
 Father. I have no delight in corruptible food, nor in the pleasures of this
 life. I desire the bread of God, the heavenly bread, the bread of life, which is
 the flesh of Jesus Christ, the Son of God, who became afterwards of the seed of
@@ -134,7 +134,7 @@ incorruptible love and eternal life.
 
 I no longer wish to live after the manner of men, and my desire shall be
 fulfilled if you consent. “I am crucified with Christ: nevertheless I live; yet
-no longer I, since Christ liveth in me.” I entreat you in this brief letter: do
+no longer I, since Christ lives in me.” I entreat you in this brief letter: do
 not refuse me; believe me that I love Jesus, who was delivered to death for my
 sake. “What shall I render to the Lord for all His benefits towards me?” Now
 God, even the Father, and the Lord Jesus Christ, shall reveal these things to
