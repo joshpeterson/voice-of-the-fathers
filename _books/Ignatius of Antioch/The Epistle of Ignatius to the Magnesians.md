@@ -260,4 +260,4 @@ _**Source:** Translated by Alexander Roberts and James Donaldson. From
 Ante-Nicene Fathers, Vol. 1. Edited by Alexander Roberts, James Donaldson, and
 A. Cleveland Coxe. (Buffalo, NY: Christian Literature Publishing Co., 1885.)
 Edited for Voice of the Fathers by Josh Peterson. Obtained from
-[Christian Classics Ethereal Library](https://ccel.org/ccel/ignatius_antioch/epistles_of_ignatius/anf.v.iii.html)._
+[Christian Classics Ethereal Library](https://ccel.org/ccel/ignatius_antioch/epistles_of_ignatius/anf01.v.iii.html)._
