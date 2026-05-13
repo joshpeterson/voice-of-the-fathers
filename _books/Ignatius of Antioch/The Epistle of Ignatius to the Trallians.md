@@ -24,7 +24,7 @@ Jesus Christ, His Son, with the co-operation of the Spirit, and so sympathized
 in the joy which I, who am bound in Christ Jesus, possess, that I beheld your
 whole multitude in Him. Having therefore received through him the testimony of
 your good-will according to God, I gloried to find that you were the followers
-of Jesus Christ the Saviour.
+of Jesus Christ the Savior.
 
 ## Chapter 2 - Subject to the bishop, etc.
 
@@ -41,7 +41,7 @@ and drink, but servants of the Church of God. They are bound, therefore, to
 avoid all grounds of accusation against them, as they would a burning fire. Let
 them, then, prove themselves to be such.
 
-## Chapter 3 - Honour the deacons, etc.
+## Chapter 3 - Honor the deacons, etc.
 
 And do you reverence them as Christ Jesus, of whose place they are the keepers,
 even as the bishop is the representative of the Father of all things, and the
@@ -143,7 +143,7 @@ clothing yourselves with meekness, become the imitators of His sufferings, and
 of His love, wherewith He loved us when He gave Himself a ransom for us, that He
 might cleanse us by His blood from our old ungodliness, and bestow life on us
 when we were almost on the point of perishing through the depravity that was in
-us. Let no one of you, therefore, cherish any grudge against his neighbour. For
+us. Let no one of you, therefore, cherish any grudge against his neighbor. For
 says our Lord, “Forgive, and it shall be forgiven unto you.” Give no occasion to
 the Gentiles, lest “by means of a few foolish men the word and doctrine of
 Christ be blasphemed.” For says the prophet, as in the person of God, “Woe to
@@ -156,8 +156,8 @@ Christ, the Son of God, who was descended from David, and was also of Mary; who
 was truly begotten of God and of the Virgin, but not after the same manner. For
 indeed God and man are not the same. He truly assumed a body; for “the Word was
 made flesh,” and lived upon earth without sin. For says He, “Which of you
-convicteth me of sin?” He did in reality both eat and drink. He was crucified
-and died under Pontius Pilate. He really, and not merely in appearance, was
+convicted me of sin?” He did in reality both eat and drink. He was crucified and
+died under Pontius Pilate. He really, and not merely in appearance, was
 crucified, and died, in the sight of beings in heaven, and on earth, and under
 the earth. By those in heaven I mean such as are possessed of incorporeal
 natures; by those on earth, the Jews and Romans, and such persons as were
@@ -243,8 +243,8 @@ whose rulers have refreshed me in every respect, both in the flesh and in the
 spirit. My bonds, which I carry about with me for the sake of Jesus Christ
 (praying that I may attain to God), exhort you. Continue in harmony among
 yourselves, and in supplication; for it becomes every one of you, and especially
-the presbyters, to refresh the bishop, to the honour of the Father, and to the
-honour of Jesus Christ and of the apostles. I entreat you in love to hear me,
+the presbyters, to refresh the bishop, to the honor of the Father, and to the
+honor of Jesus Christ and of the apostles. I entreat you in love to hear me,
 that I may not, by having thus written, be a testimony against you. And do you
 also pray for me, who have need of your love, along with the mercy of God, that
 I may be thought worthy to attain the lot for which I am now designed, and that
