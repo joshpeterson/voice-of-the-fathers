@@ -17,7 +17,7 @@ God.
 
 ## Chapter 1 - Thanks to God for your faith
 
-I Glorify the God and Father of our Lord Jesus Christ, who by Him has given you
+I glorify the God and Father of our Lord Jesus Christ, who by Him has given you
 such wisdom. For I have observed that you are perfected in an immoveable faith,
 as if you were nailed to the cross of our Lord Jesus Christ, both in the flesh
 and in the spirit, and are established in love through the blood of Christ,
@@ -54,10 +54,10 @@ crucified, but I also know that He was so after His resurrection, and believe
 that He is so now. When, for instance, He came to those who were with Peter, He
 said to them, “Lay hold, handle Me, and see that I am not an incorporeal
 spirit.” “For a spirit hath not flesh and bones, as you see Me have.” And He
-says to Thomas, “Reach hither thy finger into the print of the nails, and reach
-hither thy hand, and thrust it into My side;” and immediately they believed that
-He was Christ. Wherefore Thomas also says to Him, “My Lord, and my God.” And on
-this account also did they despise death, for it were too little to say,
+says to Thomas, “Reach hither your finger into the print of the nails, and reach
+hither your hand, and thrust it into My side;” and immediately they believed
+that He was Christ. Wherefore Thomas also says to Him, “My Lord, and my God.”
+And on this account also did they despise death, for it were too little to say,
 indignities and stripes. Nor was this all; but also after He had shown Himself
 to them, that He had risen indeed, and not in appearance only, He both ate and
 drank with them during forty entire days. And thus was He, with the flesh,
@@ -105,9 +105,9 @@ man or a woman. “He that is able to receive it, let him receive it.” Let no
 man’s place, or dignity, or riches, puff him up; and let no man’s low condition
 or poverty abase him. For the chief points are faith towards God, hope towards
 Christ, the enjoyment of those good things for which we look, and love towards
-God and our neighbour. For, “Thou shall love the Lord thy God with all thy
-heart, and thy neighbour as thyself.” And the Lord says, “This is life eternal,
-to know the only true God, and Jesus Christ whom He has sent.” And again, “A new
+God and our neighbor. For, “Thou shall love the Lord thy God with all thy heart,
+and thy neighbor as thyself.” And the Lord says, “This is life eternal, to know
+the only true God, and Jesus Christ whom He has sent.” And again, “A new
 commandment give I unto you, that you love one another. On these two
 commandments hang all the law and the prophets.” Do you, therefore, notice those
 who preach other doctrines, how they affirm that the Father of Christ cannot be
@@ -148,7 +148,7 @@ to baptize, or to offer, or to present sacrifice, or to celebrate a love-feast.
 But that which seems good to him, is also well-pleasing to God, that everything
 you do may be secure and valid.
 
-## Chapter 9 - Honour the bishop
+## Chapter 9 - Honor the bishop
 
 Moreover, it is in accordance with reason that we should return to soberness of
 conduct, and, while yet we have opportunity, exercise repentance towards God.
@@ -168,8 +168,8 @@ worthy of punishment, inasmuch as he dissolves public order, of how much sorer
 punishment, suppose you, shall he be thought worthy, who presumes to do anything
 without the bishop, thus both destroying the Church’s unity, and throwing its
 order into confusion? For the priesthood is the very highest point of all good
-things among men, against which whosoever is mad enough to strive, dishonours
-not man, but God, and Christ Jesus, the First-born, and the only High Priest, by
+things among men, against which whosoever is mad enough to strive, dishonors not
+man, but God, and Christ Jesus, the First-born, and the only High Priest, by
 nature, of the Father. Let all things therefore be done by you with good order
 in Christ. Let the laity be subject to the deacons; the deacons to the
 presbyters; the presbyters to the bishop; the bishop to Christ, even as He is to
@@ -177,25 +177,11 @@ the Father. As you, brethren, have refreshed me, so will Jesus Christ refresh
 you. You have loved me when absent, as well as when present. God will recompense
 you, for whose sake you have shown such kindness towards His prisoner. For even
 if I am not worthy of it, yet your zeal to help me is an admirable thing. For
-“he who honours a prophet in the name of a prophet, shall receive a prophet’s
-reward.” It is manifest also, that he who honours a prisoner of Jesus Christ
+“he who honors a prophet in the name of a prophet, shall receive a prophet’s
+reward.” It is manifest also, that he who honors a prisoner of Jesus Christ
 shall receive the reward of the martyrs.
 
-## Chapter 10 - My soul is for you
-
-My soul is for you, and I rejoice greatly in your faith, and in your love, and
-in your patience, and in your long-suffering. For I know that you are not puffed
-up, but are humble, and that you are not ashamed to confess your faith in
-Christ, but are ready to suffer for His name. I exhort you, therefore, to be of
-one mind, and to be subject to the bishop, and to the presbytery, as to the
-apostles of Jesus Christ, who is our hope, in whom, if we live, we shall be
-found in Him. It is meet also that the deacons, the ministers of the mysteries
-of Jesus Christ, should in all things be pleasing to all. For they are not the
-ministers of meat and drink, but of the Church of God. They are bound,
-therefore, to avoid all grounds of accusation against them, as they would do
-fire.
-
-## Chapter 11 - Acknowledgment of their kindness
+## Chapter 10 - Acknowledgment of their kindness
 
 You have done well in receiving Philo, and Gaius, and Agathopus, who, being the
 servants of Christ, have followed me for the sake of God, and who greatly bless
@@ -205,6 +191,50 @@ reckoned unto you. “The Lord grant” to you “that you may find mercy of the
 in that day!” May my spirit be for you, and my bonds, which you have not
 despised or been ashamed of. Wherefore, neither shall Jesus Christ, our perfect
 hope, be ashamed of you.
+
+## Chapter 11 - Request to them to send a messenger to Antioch
+
+Your prayers have reached to the Church of Antioch, and it is at peace. Coming
+from that place bound, I salute all; I who am not worthy to be styled from
+thence, inasmuch as I am the least of them. Nevertheless, according to the will
+of God, I have been thought worthy of this honor, not that I have any sense of
+having deserved it, but by the grace of God, which I wish may be perfectly given
+to me, that through your prayers I may attain to God. In order, therefore, that
+your work may be complete both on earth and in heaven, it is fitting that, for
+the honour of God, your Church should elect some worthy delegate; so that he,
+journeying into Syria, may congratulate them that they are now at peace, and are
+restored to their proper greatness, and that their proper constitution has been
+re-established among them. What appears to me proper to be done is this, that
+you should send some one of your number with an epistle, so that, in company
+with them, he may rejoice over the tranquillity which, according to the will of
+God, they have obtained, and because that, through your prayers, I have secured
+Christ as a safe harbour. As persons who are perfect, ye should also aim at
+those things which are perfect. For when ye are desirous to do well, God is also
+ready to assist you.
+
+## Chapter 12 - Salutations
+
+The love of your brethren at Troas salutes you; whence also I write to you by
+Burgus, whom you sent with me, together with the Ephesians, your brethren, and
+who has in all things refreshed me. And I would that all may imitate him, as
+being a pattern of a minister of God. The grace of the Lord will reward him in
+all things. I salute your most worthy bishop Polycarp, and your venerable
+presbytery, and your Christ-bearing deacons, my fellow-servants, and all of you
+individually, as well as generally, in the name of Christ Jesus, and in His
+flesh and blood, in His passion and resurrection, both corporeal and spiritual,
+in union with God and you. Grace, mercy, peace, and patience, be with you in
+Christ for evermore!
+
+## Chapter 13 - Conclusion
+
+I salute the families of my brethren, with their wives and children, and those
+that are ever virgins, and the widows. Be ye strong, I pray, in the power of the
+Holy Ghost. Philo, my fellow-servant, who is with me, greets you. I salute the
+house of Tavias, and pray that it may be confirmed in faith and love, both
+corporeal and spiritual. I salute Alce, my well-beloved, and the incomparable
+Daphnus, and Eutecnus, and all by name. Fare you well in the grace of God, and
+of our Lord Jesus Christ, being filled with the Holy Spirit, and divine and
+sacred wisdom.
 
 _**Source:** Translated by Alexander Roberts and James Donaldson. From
 Ante-Nicene Fathers, Vol. 1. Edited by Alexander Roberts, James Donaldson, and
