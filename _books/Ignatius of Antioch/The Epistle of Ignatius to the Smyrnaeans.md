@@ -153,16 +153,16 @@ you do may be secure and valid.
 Moreover, it is in accordance with reason that we should return to soberness of
 conduct, and, while yet we have opportunity, exercise repentance towards God.
 For “in Hades there is no one who can confess his sins.” For “behold the man,
-and his work is before him.” And the Scripture saith, “My son, honour thou God
-and the king.” And say I, honour your God indeed, as the Author and Lord of all
+and his work is before him.” And the Scripture saith, “My son, honor thou God
+and the king.” And say I, honor your God indeed, as the Author and Lord of all
 things, but the bishop as the high-priest, who bears the image of God—of God, in
 as much as he is a ruler, and of Christ, in his capacity of a priest. After Him,
-we must also honour the king. For there is no one superior to God, or even like
+we must also honor the king. For there is no one superior to God, or even like
 to Him, among all the beings that exist. Nor is there any one in the Church
 greater than the bishop, who ministers as a priest to God for the salvation of
 the whole world. Nor, again, is there any one among rulers to be compared with
 the king, who secures peace and good order to those over whom he rules. He who
-honours the bishop shall be honoured by God, even as he that dishonours him
+honors the bishop shall be honored by God, even as he that dishonors him
 shall be punished by God. For if he that rises up against kings is justly held
 worthy of punishment, inasmuch as he dissolves public order, of how much sorer
 punishment, suppose you, shall he be thought worthy, who presumes to do anything
@@ -201,7 +201,7 @@ of God, I have been thought worthy of this honor, not that I have any sense of
 having deserved it, but by the grace of God, which I wish may be perfectly given
 to me, that through your prayers I may attain to God. In order, therefore, that
 your work may be complete both on earth and in heaven, it is fitting that, for
-the honour of God, your Church should elect some worthy delegate; so that he,
+the honor of God, your Church should elect some worthy delegate; so that he,
 journeying into Syria, may congratulate them that they are now at peace, and are
 restored to their proper greatness, and that their proper constitution has been
 re-established among them. What appears to me proper to be done is this, that

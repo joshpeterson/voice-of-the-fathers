@@ -13,7 +13,7 @@ through the majesty of the Most High God the Father, and of Jesus Christ, His
 only-begotten Son; the Church which is sanctified and enlightened by the will of
 God, who formed all things that are according to the faith and love of Jesus
 Christ, our God and Saviour; the Church which presides in the place of the
-region of the Romans, and which is worthy of God, worthy of honour, worthy of
+region of the Romans, and which is worthy of God, worthy of honor, worthy of
 the highest happiness, worthy of praise, worthy of credit, worthy of being
 deemed holy, and which presides over love, is named from Christ, and from the
 Father, and is possessed of the Spirit, which I also salute in the name of
@@ -39,7 +39,7 @@ to God, if you do not spare me, under the pretence of carnal affection.
 For it is not my desire that you should please men, but God, even as also you do
 please Him. For neither shall I ever hereafter have such an opportunity of
 attaining to God; nor will you, if you shall now be silent, ever be entitled to
-the honour of a better work. For if you are silent concerning me, I shall become
+the honor of a better work. For if you are silent concerning me, I shall become
 God’s; but if you show your love to my flesh, I shall again have to run my race.
 Pray, then, do not seek to confer any greater favor upon me than that I be
 sacrificed to God, while the altar is still prepared; that, being gathered

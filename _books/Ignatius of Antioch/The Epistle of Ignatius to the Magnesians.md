@@ -45,7 +45,7 @@ the wise, at twelve years of age, became possessed of the divine Spirit, and
 convicted the elders, who in vain carried their grey hairs, of being false
 accusers, and of lusting after the beauty of another man’s wife. Samuel also,
 when he was but a little child, reproved Eli, who was ninety years old, for
-giving honour to his sons rather than to God. In like manner, Jeremiah also
+giving honor to his sons rather than to God. In like manner, Jeremiah also
 received this message from God, “Say not, I am a child.” Solomon too, and
 Josiah, exemplified the same thing. The former, being made king at twelve years
 of age, gave that terrible and difficult judgment in the case of the two women
@@ -71,7 +71,7 @@ fifty who conspired with him against Aaron, were destroyed by fire. Absalom,
 again, who had slain his brother, became suspended on a tree, and had his
 evil-designing heart thrust through with darts. In like manner was Abeddadan
 beheaded for the same reason. Uzziah, when he presumed to oppose the priests and
-the priesthood, was smitten with leprosy. Saul also was dishonoured, because he
+the priesthood, was smitten with leprosy. Saul also was dishonored, because he
 did not wait for Samuel the high priest. It behoves you, therefore, also to
 reverence your superiors.
 
@@ -252,7 +252,7 @@ order, of being edified in Christ.
 
 The Ephesians from Smyrna (whence I also write to you), who are here for the
 glory of God, as you also are, who have in all things refreshed me, salute you,
-as does also Polycarp. The rest of the Churches, in honour of Jesus Christ, also
+as does also Polycarp. The rest of the Churches, in honor of Jesus Christ, also
 salute you. Fare you well in harmony, you who have obtained the inseparable
 Spirit, in Christ Jesus, by the will of God.
 

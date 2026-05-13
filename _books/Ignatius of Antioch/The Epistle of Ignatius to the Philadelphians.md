@@ -127,7 +127,7 @@ Let not the widows be wanderers about, nor fond of dainties, nor gadders from
 house to house; but let them be like Judith, noted for her seriousness; and like
 Anna, eminent for her sobriety. I do not ordain these things as an apostle: for
 “who am I, or what is my father’s house,” that I should pretend to be equal in
-honour to them? But as your “fellow-soldier,” I hold the position of one who
+honor to them? But as your “fellow-soldier,” I hold the position of one who
 simply admonishes you.
 
 ## Chapter 5 - Pray for me
@@ -266,7 +266,7 @@ ministers to me in the word of God, along with Gaius and Agathopus, an elect
 man, who has followed me from Syria, not regarding his life,—these also bear
 testimony in your behalf. And I myself give thanks to God for you, because you
 have received them: and the Lord will also receive you. But may those that
-dishonoured them be forgiven through the grace of Jesus Christ, “who wisheth not
+dishonored them be forgiven through the grace of Jesus Christ, “who wisheth not
 the death of the sinner, but his repentance.” The love of the brethren at Troas
 salutes you; whence also I write to you by Burrhus, who was sent along with me
 by the Ephesians and Smyrnaeans, to show their respect: whom the Lord Jesus
